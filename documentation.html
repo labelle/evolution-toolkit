@@ -94,7 +94,7 @@
         </div> -->
 
         <div class="elements-banner-links">
-          <a class="evo-icon-biggest evo-icon-circle-chevron-right-book" href="" style="margin-left: -5px;"><p class="evo-text no-wrap" style="margin-left: 25px; margin-top: -1px;">Grab the code</p></a>
+          <a class="evo-icon-biggest evo-icon-circle-chevron-right-book" href="https://github.com/labelle/evolution-toolkit/tree/download" style="margin-left: -5px;"><p class="evo-text no-wrap" style="margin-left: 25px; margin-top: -1px;">Grab the code</p></a>
         </div>
 
         </div>
@@ -103,15 +103,46 @@
 
     <div class="evo-line-thin"></div>
 
-    <div class="evo-space-small"></div>
-  
+     <div class="evo-space-small"></div>
 
 
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="evo-space-big"></div>
-      </div>
+    <h3 class="evo-header-bigger evo-no-line">How it works</h3>
+
+    <p class="evo-text-big">Create a CSS styleguide to manage website visuals.</p>
+
+    <div class="evo-space-25"></div>
+
+    <img width="100%" src="img/evolution/HowItWorks.png" alt="how it works" title="how it works">
+
+    <div class="evo-space-15"></div>
+
+    <p class="evo-text-big">Evolution features a two-tiered system for managing UI elements and CSS styles.</p>
+    <p class="evo-text-big">At the center of it is the toolkit. This is where you establish your basic brand color and brand fonts.</p>
+    <p class="evo-text-big">It's also where you establish a 'UI Styleguide' of button sizes, header sizes, text sizes, etc.</p>
+    <p class="evo-text-big">Here is example code to create a header in _styleguide.scss:</p>
+
+    <div class="evo-space-15"></div>
+
+    <div class="code">
+        <!-- .evo-no-line { <span class="comment-color">// this class removes the top border line from the evolution headers.</span> <br /><span class="indent-10">border-style: hidden !important;</span> <br /><span class="indent-10">border-top: 0px !important;</span> <br /> } -->
+        <div class="evo-space-5"></div>
+        .evo-header-base { <span class="comment-color">// this area allows for creating base css attributes for headers.</span> <br /><span class="indent-10">@extend .evo-no-line;</span> <span class="comment-color">// we'll include our .evo-no-line class that we created above.</span> <br /> }
+        <div class="evo-space-5"></div>
+        .evo-header-big { <span class="comment-color">// this is a semantic CSS class for defining a header size.</span> <br /><span class="indent-10">@extend .evo-header-20;</span> <span class="comment-color">// this style lives in evolution.less file and styleguide can use any class that lives inside of evolution.less file</span> <br /><span class="indent-10">@extend .evo-header-base;</span> <span class="comment-color">// we'll include our .evo-header-base class that we created above.</span> <br />}
     </div>
+
+    <div class="evo-space-15"></div>
+
+    <p class="evo-text-big">The _evolution.scss file features a 'skeleton' of UI elements and neutral colors that allow you to adjust sizes and typography very quickly, simply by swapping out one element for another.</p>
+    <p class="evo-text-big">For example: <code>evo-button-5</code> can quickly swap to a larger size <code>evo-button-10</code>.</p>  
+
+
+    <div class="evo-space-20"></div>
+
+    <div class="evo-line-thin"></div>
+
+     <div class="evo-space-small"></div>
+
 
 
     <a name="get-started"></a>
@@ -125,13 +156,13 @@
       <div class="col-xs-12 col-md-12  col-lg-5 no-wrap">
         <div class="evo-space-10"></div>
 <!--         <p class="evo-text-4 description">Jump right in with just the CSS files.</p> -->
-      <a href="https://github.com/labelle/evolution-icons/archive/download.zip"><span class="evo-button-10">Download CSS files</span></a>
+      <a href="https://github.com/labelle/evolution-toolkit/archive/download.zip"><span class="evo-button-10">Download CSS files</span></a>
       </div>
 
       <div class="col-xs-12 col-md-12 col-lg-7 no-wrap">
         <div class="evo-space-10"></div>
 <!--         <p class="evo-text-4 description">Download the source code (including CSS) for more advanced control.</p> -->
-      <a href="https://github.com/labelle/evolution-icons/archive/master.zip"><span class="evo-button-10">Download source code</span></a>
+      <a href="https://github.com/labelle/evolution-toolkit/archive/master.zip"><span class="evo-button-10">Download source code</span></a>
       </div>
 
       <div class="evo-space-25"></div>
@@ -203,124 +234,23 @@
         </div>
 
 
-        <div class="evo-space-20"></div>
+      <div class="evo-space-20"></div>
+
+      <div class="evo-line-thin"></div>
+
+      <div class="evo-space-small"></div>
 
         <div class="row">
           <div class="col-xs-12">
-            <h3 class="evo-header-bigger" id="icons">Icon Styles</h3>
+            <h3 class="evo-header-bigger" id="icons">Toolkit</h3>
              <div class="evo-space-15"></div>
-            <p class="evo-text-small">A basic icon family designed for common website needs.</p>
-
-             <div class="evo-space-5"></div>
-
-            <p class="evo-text-small">To help match your website's look and feel, these SVG icons come in three weights. Thin, light, book, and bold and 30 different sizes.</p>
+            <p class="evo-text-small">Use this as a styleguide to manage a website’s look and feel, from 'agile' prototype to production.</p>
 
             <div class="evo-space-5"></div>
 
-            <p class="evo-text-small">To use icons add these two classes as shown below.</p>
-
-            <div class="evo-space-5"></div>
-
-            <div class="code">
-                  &#60;div class="evo-icon-10 evo-icon-arrow-right-book"&#62;&#60;/div&#62;
-            </div>
-
-            <div class="evo-space-10"></div>
-
-            <p class="evo-text-small">The first class <code>evo-icon-10</code> represents the size of the icon.</p>
-
-            <div class="evo-space-5"></div>
-
-            <p class="evo-text-small"><code>evo-icon-</code> is a universal class prefix for evolution framework, and the number <code>-10</code> represents size of the icon.</p>  
-            <div class="evo-space-5"></div>
-            <p class="evo-text-small">The second class <code>evo-icon-arrow-right-book</code> represents the weight of the icon.</p>
-
-            <div class="evo-space-5"></div>
-
-            <p class="evo-text-small"><code>evo-icon-arrow-right</code> is name of the SVG file, and <code>-book</code> represents weight of that SVG file.</p>
-
-             <div class="evo-space-5"></div>
-
-            <p class="evo-text-small">On the left side is code snippet and on the right is displayed icon of that code snippet.</p>
-            <div class="evo-space-10"></div>
-          </div>
-
-           <div class="evo-space-10"></div>
-
-
-         </div> <!-- container -->
-
-
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="evo-space-5"></div>
-            </div>
-          </div>
-
-
-        <!-- Bold -->
-            
-            <div class="row">
-              <div class="col-xs-7">
-                <div class="code">
-                  &#60;div class="evo-icon-10 evo-icon-arrow-right-bold"&#62;&#60;/div&#62; <br />
-                </div>
-              </div>
-
-              <div class="col-xs-offset-1 col-xs-4">
-                <p class="annotation">evo-icon-arrow-right-bold</p>
-                <div class="evo-icon-10 evo-icon-arrow-right-bold"></div>
-              </div>
-            </div>
-
-        <!-- Book -->
-            
-            <div class="row">
-              <div class="col-xs-7">
-                <div class="code">
-                  &#60;div class="evo-icon-10 evo-icon-arrow-right-book"&#62;&#60;/div&#62; <br />
-                </div>
-              </div>
-
-              <div class="col-xs-offset-1 col-xs-4">
-                <p class="annotation">evo-icon-arrow-right-book</p>
-                <div class="evo-icon-10 evo-icon-arrow-right-book"></div>
-              </div>
-            </div>
-
-        <!-- Light -->
-            
-            <div class="row">
-              <div class="col-xs-7">
-                <div class="code">
-                  &#60;div class="evo-icon-10 evo-icon-arrow-right-light"&#62;&#60;/div&#62; <br />
-                </div>
-              </div>
-
-              <div class="col-xs-offset-1 col-xs-4">
-                <p class="annotation">evo-icon-arrow-right-light</p>
-                <div class="evo-icon-10 evo-icon-arrow-right-light"></div>
-              </div>
-            </div>
-
-
-        <!-- Thin -->
-            
-            <div class="row">
-              <div class="col-xs-7">
-                <div class="code">
-                  &#60;div class="evo-icon-10 evo-icon-arrow-right-thin"&#62;&#60;/div&#62; <br />
-                </div>
-              </div>
-
-              <div class="col-xs-offset-1 col-xs-4">
-                <p class="annotation">evo-icon-arrow-right-thin</p>
-                <div class="evo-icon-10 evo-icon-arrow-right-thin"></div>
-              </div>
-            </div>
-
-
-          <div class="evo-space-20"></div>
+            <p class="evo-text-small">Use with Elements to evolve your website in collaboration with designers and developers.</p>
+  
+            <div class="evo-space-20"></div>
       
             <h4 class="evo-header-big evo-no-line">Basic Template</h4> <!-- Basic Template -->
 
@@ -343,7 +273,7 @@
            <div class="evo-space-10"></div>
 
           <style type="text/css">.gist-data {max-height: 500px;}</style>
-           <script src="https://gist.github.com/tomdanny/cf878e4730c57a11b01d8cc79bdb7885.js"></script>
+           <script src="https://gist.github.com/tomdanny/759415742401c620c9f2e5c70f8fd7a1.js"></script>
 
 
         </div>
