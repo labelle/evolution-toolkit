@@ -1,0 +1,1109 @@
+///* ================================================================================ */
+
+///*                                   EVOLUTION STYLEGUIDE v2.0.1                    */
+
+///* ================================================================================ */
+
+ @import "../silent-elements/variables";
+ @import "../silent-elements/buttons_silent";
+ @import "../silent-elements/colors_silent";
+ // @import "../elements/errors_silent";
+ @import "../silent-elements/fonts_silent";
+ @import "../silent-elements/forms_silent";
+ @import "../silent-elements/headers_silent";
+ @import "../silent-elements/images_silent";
+ @import "../silent-elements/lines_silent";
+ @import "../silent-elements/spacers_silent";
+ @import "../silent-elements/text_silent";
+ // @import "../icons/icons-sizes";
+
+// This is a styleguide framework
+// It uses the evolution framework as a skeleton foundation
+
+
+body, html {
+    font-size: $font_size_base !important;
+}
+
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE COLORS ------------------------------- */
+/* ================================================================================ */
+
+
+/* BRAND COLORS */
+
+
+.brand-color-1                      { color: $brand_color_1; }
+.brand-color-1-bg                   { background-color: $brand_color_1; }
+
+.brand-color-2                      { color: $brand_color_2; }
+.brand-color-2-bg                   { background-color: $brand_color_2; }
+
+.brand-color-3                      { color: $brand_color_3; }
+.brand-color-3-bg                   { background-color: $brand_color_3; }
+
+.brand-color-4                      { color: $brand_color_4; }
+.brand-color-4-bg                   { background-color: $brand_color_4; }
+
+
+/* NEUTRAL COLORS */
+
+
+.evo-black                          { color: $black_evo; }
+.evo-black-bg                       { background-color: $black_evo; }
+
+.evo-white                          { color: $white_evo; }
+.evo-white-bg                       { background-color: $white_evo; }
+
+// .evo-gray-darkest                   { color: $gray_95_evo; }
+// .evo-gray-darkest-bg                { background-color: $gray_95_evo; }
+
+// .evo-gray-darker                    { color: $gray_80_evo; }
+// .evo-gray-darker-bg                 { background-color: $gray_80_evo; }
+
+// .evo-gray-dark                      { color: $gray_65_evo; }
+// .evo-gray-dark-bg                   { background-color: $gray_65_evo; }
+
+// .evo-gray                           { color: $gray_50_evo; }
+// .evo-gray-bg                        { background-color: $gray_50_evo; }
+
+// .evo-gray-light                     { color: $gray_35_evo; }
+// .evo-gray-light-bg                  { background-color: $gray_35_evo; }
+
+// .evo-gray-lighter                   { color: $gray_20_evo; }
+// .evo-gray-lighter-bg                { background-color: $gray_20_evo; }
+
+// .evo-gray-lightest                  { color: $gray_5_evo; }
+// .evo-gray-lightest-bg               { background-color: $gray_5_evo; }
+
+
+
+
+.evo-gray-darkest                   { @extend %evo-dark-95; }
+.evo-gray-darkest-bg                { @extend %evo-dark-95-bg; }
+
+.evo-gray-darker                    { @extend %evo-dark-80; }
+.evo-gray-darker-bg                 { @extend %evo-dark-80-bg; }
+
+.evo-gray-dark                      { @extend %evo-dark-65; }
+.evo-gray-dark-bg                   { @extend %evo-dark-65-bg; }
+
+.evo-gray                           { @extend %evo-dark-50; }
+.evo-gray-bg                        { @extend %evo-dark-50-bg; }
+
+.evo-gray-light                     { @extend %evo-dark-35; }
+.evo-gray-light-bg                  { @extend %evo-dark-35-bg; }
+
+.evo-gray-lighter                   { @extend %evo-dark-20; }
+.evo-gray-lighter-bg                { @extend %evo-dark-20-bg; }
+
+.evo-gray-lightest                  { @extend %evo-dark-5; }
+.evo-gray-lightest-bg               { @extend %evo-dark-5-bg; }
+
+
+
+
+
+.evo-gray-darkest-inverse                   { @extend %evo-light-95; }
+.evo-gray-darkest-inverse-bg                { @extend %evo-light-95-bg; }
+
+.evo-gray-darker-inverse                    { @extend %evo-light-80; }
+.evo-gray-darker-inverse-bg                 { @extend %evo-light-80-bg; }
+
+.evo-gray-dark-inverse                      { @extend %evo-light-65; }
+.evo-gray-dark-inverse-bg                   { @extend %evo-light-65-bg; }
+
+.evo-gray-inverse                           { @extend %evo-light-50; }
+.evo-gray-inverse-bg                        { @extend %evo-light-50-bg; }
+
+.evo-gray-light-inverse                     { @extend %evo-light-35; }
+.evo-gray-light-inverse-bg                  { @extend %evo-light-35-bg; }
+
+.evo-gray-lighter-inverse                   { @extend %evo-light-20; }
+.evo-gray-lighter-inverse-bg                { @extend %evo-light-20-bg; }
+
+.evo-gray-lightest-inverse                  { @extend %evo-light-5; }
+.evo-gray-lightest-inverse-bg               { @extend %evo-light-5-bg; }
+
+
+
+// ================================================================================ 
+// ------------------------------ STYLEGUIDE FONTS -------------------------------- 
+// ================================================================================  
+
+
+//* BRAND FONTS */
+
+// Define overall brand fonts
+
+.brand-font-1 { @extend %evo-font-arial; }
+
+
+
+//*  UI SYSTEM FONTS */
+
+// Default font_stacks are in fonts.scss
+
+.evo-font-1        { @extend %evo-font-arial; }
+.evo-font-2        { @extend %evo-font-courier-new; }
+
+
+
+
+// ================================================================================
+// ---------------------------- STYLEGUIDE HEADERS --------------------------------
+// ================================================================================ 
+
+%evo-header-base                    {
+    @extend %evo-no-line;
+    // line-height:     change variable for headers.scss below 
+    // font-family:     default is header_fonts in FONTS above 
+    // font-size:       change variable for headers.scss below 
+    // letter-spacing:  change variable for headers.scss below 
+    // border-top:      change variable for headers.scss below 
+    // padding-top:     change variable for headers.scss below 
+    // font-weight:     default is in headers.scss 
+    // text-transform:  default is in headers.scss;   
+}
+
+.evo-header-jumbo                   { @extend %evo-header-40; @extend %evo-header-base; }
+
+.evo-header-biggest                 { @extend %evo-header-28; @extend %evo-header-base; }
+.evo-header-bigger                  { @extend %evo-header-24; @extend %evo-header-base; }
+.evo-header-big                     { @extend %evo-header-20; @extend %evo-header-base; }
+.evo-header                         { @extend %evo-header-16; @extend %evo-header-base; }
+.evo-header-small                   { @extend %evo-header-12; @extend %evo-header-base; }
+.evo-header-smaller                 { @extend %evo-header-8; @extend %evo-header-base; }
+.evo-header-smallest                { @extend %evo-header-4; @extend %evo-header-base; }
+
+
+// Inverse 
+
+%evo-header-inverse-base            {
+    @extend .evo-white;
+    @extend %evo-no-line;                   // use to suppress lines above all headers
+
+}
+
+.evo-header-inverse-jumbo           { @extend %evo-header-40; @extend %evo-header-inverse-base; }
+
+.evo-header-inverse-biggest         { @extend %evo-header-28; @extend %evo-header-inverse-base; }
+.evo-header-inverse-bigger          { @extend %evo-header-24; @extend %evo-header-inverse-base; }
+.evo-header-inverse-big             { @extend %evo-header-20; @extend %evo-header-inverse-base; }
+.evo-header-inverse                 { @extend %evo-header-16; @extend %evo-header-inverse-base; }
+.evo-header-inverse-small           { @extend %evo-header-12; @extend %evo-header-inverse-base; }
+.evo-header-inverse-smaller         { @extend %evo-header-8; @extend %evo-header-inverse-base; }
+.evo-header-inverse-smallest        { @extend %evo-header-4; @extend %evo-header-inverse-base; }
+
+
+
+
+// ================================================================================
+// ---------------------------- STYLEGUIDE SUBHEADERS -----------------------------
+// ================================================================================ 
+
+// Subheaders are derived from variables for headers above
+
+%evo-subheader-base                 {
+    // @extend %evo-no-line;
+    // line-height:     change variable for headers.scss above 
+    // font-family:     default is header_fonts in FONTS above 
+    // font-size:       change variable for headers.scss above 
+    // letter-spacing:  change variable for headers.scss above 
+    // border-top:      change variable for headers.scss above 
+    // padding-top:     change variable for headers.scss above 
+    // font-weight:     default is in headers.scss 
+    // text-transform:  default is in headers.scss; 
+}
+
+.evo-subheader-caps                 { @extend %evo-header-10-caps; }
+
+.evo-subheader-biggest              { @extend %evo-header-16; }
+.evo-subheader-bigger               { @extend %evo-header-14; } // intro copy
+.evo-subheader-big                  { @extend %evo-header-12; }
+.evo-subheader                      { @extend %evo-header-10; } // body copy
+.evo-subheader-small                { @extend %evo-header-8; }
+.evo-subheader-smaller              { @extend %evo-header-6; } // captions
+.evo-subheader-smallest             { @extend %evo-header-4; }
+
+
+// Inverse 
+
+%evo-subheader-inverse-base         {
+    @extend .evo-white;
+    // @extend %evo-no-line;
+
+}
+
+.evo-subheader-inverse-caps         { @extend %evo-header-10-caps; @extend %evo-subheader-inverse-base; }
+
+.evo-subheader-inverse-biggest      { @extend %evo-header-16; @extend %evo-subheader-inverse-base; }
+.evo-subheader-inverse-bigger       { @extend %evo-header-14; @extend %evo-subheader-inverse-base; } // intro copy
+.evo-subheader-inverse-big          { @extend %evo-header-12; @extend %evo-subheader-inverse-base; }
+.evo-subheader-inverse              { @extend %evo-header-10; @extend %evo-subheader-inverse-base; } // body copy
+.evo-subheader-inverse-small        { @extend %evo-header-8; @extend %evo-subheader-inverse-base; }
+.evo-subheader-inverse-smaller      { @extend %evo-header-6; @extend %evo-subheader-inverse-base; } // captions
+.evo-subheader-inverse-smallest     { @extend %evo-header-4; @extend %evo-subheader-inverse-base; }
+
+
+
+
+
+// ================================================================================
+// -------------------------------- STYLEGUIDE TEXT -------------------------------
+// ================================================================================ 
+
+%evo-text-base                      {
+    // font-color: red;
+}
+
+
+
+.evo-text-intro             { @extend %evo-text-10; @extend .evo-gray; } 
+
+
+.evo-text-biggest           { @extend %evo-text-16; }
+.evo-text-bigger            { @extend %evo-text-14; } // intro copy
+.evo-text-big               { @extend %evo-text-12; }
+.evo-text                   { @extend %evo-text-10; } // body copy
+.evo-text-small             { @extend %evo-text-8; }
+.evo-text-smaller           { @extend %evo-text-6; } // captions
+.evo-text-smallest          { @extend %evo-text-4; }
+
+
+// Inverse 
+
+%evo-text-inverse-base              {
+    @extend .evo-white;
+}
+
+.evo-text-inverse-intro         { @extend %evo-text-10; @extend %evo-text-inverse-base; } 
+
+.evo-text-inverse-biggest       { @extend %evo-text-16; @extend %evo-text-inverse-base; }
+.evo-text-inverse-bigger        { @extend %evo-text-14; @extend %evo-text-inverse-base; } // intro copy
+.evo-text-inverse-big           { @extend %evo-text-12; @extend %evo-text-inverse-base; }
+.evo-text-inverse               { @extend %evo-text-10; @extend %evo-text-inverse-base; } // body copy
+.evo-text-inverse-small         { @extend %evo-text-8; @extend %evo-text-inverse-base; }
+.evo-text-inverse-smaller       { @extend %evo-text-6; @extend %evo-text-inverse-base; } // captions
+.evo-text-inverse-smallest      { @extend %evo-text-4; @extend %evo-text-inverse-base; }
+
+
+
+// ================================================================================
+// -------------------------------- STYLEGUIDE LISTS ------------------------------
+// ================================================================================ 
+
+// List
+
+// This commented class are not necessery because we are applying evo-text instead
+
+// .evo-list-base {
+    
+// }
+
+// .evo-list-biggest  { @extend %evo-text-16; @extend %evo-list-base; }
+// .evo-list-bigger   { @extend %evo-text-14; @extend %evo-list-base; }
+// .evo-list-big      { @extend %evo-text-12; @extend %evo-list-base; }
+// .evo-list          { @extend %evo-text-10; @extend %evo-list-base; }
+// .evo-list-small    { @extend %evo-text-8; @extend %evo-list-base; }
+// .evo-list-smaller  { @extend %evo-text-6; @extend %evo-list-base; }
+// .evo-list-smallest { @extend %evo-text-4; @extend %evo-list-base; } 
+
+
+// /* Inverse 
+
+// .evo-list-inverse-base {
+//     @extend .evo-white;
+// }
+
+// .evo-list-inverse-biggest  { @extend %evo-text-16; @extend %evo-list-inverse-base; }
+// .evo-list-inverse-bigger   { @extend %evo-text-14; @extend %evo-list-inverse-base; }
+// .evo-list-inverse-big      { @extend %evo-text-12; @extend %evo-list-inverse-base; }
+// .evo-list-inverse-small    { @extend %evo-text-8; @extend %evo-list-inverse-base; }
+// .evo-list-inverse-smaller  { @extend %evo-text-6; @extend %evo-list-inverse-base; }
+// .evo-list-inverse-smallest { @extend %evo-text-4; @extend %evo-list-inverse-base; } 
+
+
+
+// Bullets
+
+
+%evo-list-bullets-base {
+    
+}
+
+.evo-list-bullets-biggest  { @extend %evo-text-16-bullets; }
+.evo-list-bullets-bigger   { @extend %evo-text-14-bullets; }
+.evo-list-bullets-big      { @extend %evo-text-12-bullets; }
+.evo-list-bullets          { @extend %evo-text-10-bullets; }
+.evo-list-bullets-small    { @extend %evo-text-8-bullets; }
+.evo-list-bullets-smaller  { @extend %evo-text-6-bullets; }
+.evo-list-bullets-smallest { @extend %evo-text-4-bullets; } 
+
+
+
+// Lines
+
+
+%evo-list-lines-base {
+    
+}
+
+.evo-list-lines-biggest  { @extend %evo-text-16-lines; }
+.evo-list-lines-bigger   { @extend %evo-text-14-lines; }
+.evo-list-lines-big      { @extend %evo-text-12-lines; }
+.evo-list-lines          { @extend %evo-text-10-lines; }
+.evo-list-lines-small    { @extend %evo-text-8-lines; }
+.evo-list-lines-smaller  { @extend %evo-text-6-lines; }
+.evo-list-lines-smallest { @extend %evo-text-4-lines; } 
+
+
+// Inverse 
+
+%evo-list-lines-inverse-base {
+    @extend .evo-white;
+}
+
+.evo-list-lines-inverse-biggest  { @extend %evo-text-16-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse-bigger   { @extend %evo-text-14-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse-big      { @extend %evo-text-12-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse          { @extend %evo-text-10-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse-small    { @extend %evo-text-8-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse-smaller  { @extend %evo-text-6-lines; @extend %evo-list-lines-inverse-base; }
+.evo-list-lines-inverse-smallest { @extend %evo-text-4-lines; @extend %evo-list-lines-inverse-base; } 
+
+
+
+// ================================================================================
+// -------------------------------- STYLEGUIDE LINES ------------------------------
+// ================================================================================ 
+
+
+// Line
+
+%evo-line-base                      {
+    // border-color: $gray_50_evo;
+}
+
+.evo-line-heaviest                  { @extend %evo-line-10; }
+.evo-line-heavier                   { @extend %evo-line-8; }
+.evo-line-heavy                     { @extend %evo-line-6; }
+.evo-line                           { @extend %evo-line-4; }
+.evo-line-thin                      { @extend %evo-line-3; }
+.evo-line-thinner                   { @extend %evo-line-2; }
+.evo-line-thinnest                  { @extend %evo-line-1; }
+
+
+// Inverse 
+
+%evo-line-inverse-base              {
+     @extend .evo-white;
+}
+
+.evo-line-inverse-heaviest          { @extend %evo-line-10; @extend %evo-line-inverse-base; }
+.evo-line-inverse-heavier           { @extend %evo-line-8; @extend %evo-line-inverse-base; }
+.evo-line-inverse-heavy             { @extend %evo-line-6; @extend %evo-line-inverse-base; }
+.evo-line-inverse                   { @extend %evo-line-4; @extend %evo-line-inverse-base; }
+.evo-line-inverse-thin              { @extend %evo-line-3; @extend %evo-line-inverse-base; }
+.evo-line-inverse-thinner           { @extend %evo-line-2; @extend %evo-line-inverse-base; }
+.evo-line-inverse-thinnest          { @extend %evo-line-1; @extend %evo-line-inverse-base; }
+
+
+// Kitchen Sink lines
+// .evo-box-thin           { border-style: $border_line_style_1;  color: $gray_35_evo; border-width: 1px; width: 100px; height: 100px;}
+// .evo-box-thick          { border-style: $border_line_style_1;  color: $black_evo; border-width: 5px; width: 100px; height: 100px;}
+// .evo-box-dash-thin      { border-style: dashed; border-width: 1px; color: red; clear: both; }
+
+// .evo-top-dash-5         { border-top: 5px $border_line_style_3; clear: both; }
+// .evo-top-dash-3         { border-top: 3px $border_line_style_3; clear: both; }
+// .evo-top-dash-1         { border-top: 1px $border_line_style_3; clear: both; }
+
+// .evo-top-dots-5         { border-bottom: 5px $border_line_style_2; clear: both; }
+// .evo-top-dots-3         { border-bottom: 3px $border_line_style_2; clear: both; }
+// .evo-top-dots-1         { border-bottom: 1px $border_line_style_2; clear: both; }
+
+
+// Top Border
+
+%evo-border-base {
+
+}
+
+.evo-top-border-heaviest {  @extend %evo-border-10-top; }
+.evo-top-border-heavier  {  @extend %evo-border-8-top; }
+.evo-top-border-heavy    {  @extend %evo-border-6-top; }
+.evo-top-border          {  @extend %evo-border-4-top; }
+.evo-top-border-thin     {  @extend %evo-border-3-top; }
+.evo-top-border-thinner  {  @extend %evo-border-2-top; }
+.evo-top-border-thinnest {  @extend %evo-border-1-top; }
+
+
+
+// Inverse 
+
+%evo-top-border-inverse-base {
+    @extend .evo-white;
+}
+
+
+.evo-top-border-inverse-heaviest {  @extend %evo-border-10-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse-heavier  {  @extend %evo-border-8-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse-heavy    {  @extend %evo-border-6-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse          {  @extend %evo-border-4-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse-thin     {  @extend %evo-border-3-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse-thinner  {  @extend %evo-border-2-top; @extend %evo-top-border-inverse-base; }
+.evo-top-border-inverse-thinnest {  @extend %evo-border-1-top; @extend %evo-top-border-inverse-base; }
+
+
+
+// Box
+
+%evo-box-base {
+
+}
+
+
+.evo-box-heaviest   {  @extend %evo-box-10; }
+.evo-box-heavier    {  @extend %evo-box-8; }
+.evo-box-heavy      {  @extend %evo-box-6; }
+.evo-box            {  @extend %evo-box-4; }
+.evo-box-thin       {  @extend %evo-box-3; }
+.evo-box-thinner    {  @extend %evo-box-2; }
+.evo-box-thinnest   {  @extend %evo-box-1; }
+
+
+
+
+// Inverse 
+%evo-box-inverse-base {
+    @extend .evo-white;
+}
+
+.evo-box-inverse-heaviest   {  @extend %evo-box-10; @extend %evo-box-inverse-base; }
+.evo-box-inverse-heavier    {  @extend %evo-box-8; @extend %evo-box-inverse-base; }
+.evo-box-inverse-heavy      {  @extend %evo-box-6; @extend %evo-box-inverse-base; }
+.evo-box-inverse            {  @extend %evo-box-4; @extend %evo-box-inverse-base; }
+.evo-box-inverse-thin       {  @extend %evo-box-3; @extend %evo-box-inverse-base; }
+.evo-box-inverse-thinner    {  @extend %evo-box-2; @extend %evo-box-inverse-base; }
+.evo-box-inverse-thinnest   {  @extend %evo-box-1; @extend %evo-box-inverse-base; }
+
+
+
+// ================================================================================
+// -------------------------------- STYLEGUIDE LINKS ------------------------------
+// ================================================================================ 
+
+// Default Links
+
+a {
+ -webkit-transition: color 0.3s ease-in;  
+ -moz-transition: color 0.3s ease-in;  
+ -o-transition: color 0.3s ease-in;  
+ transition: color 0.3s ease-in;  
+}
+
+
+a:link                      { color: $link_color;           text-decoration: $text_decoration_link; }
+a:visited                   { color: $link_color_visited;   text-decoration: $text_decoration_visited; }
+a:hover                     { color: $link_color_hover;     text-decoration: $text_decoration_hover; transition: color 0s ease-out;}
+a:active                    { color: $link_color_active;    text-decoration: $text_decoration_active; }
+.evo-active                 { font-weight: bold; }
+
+// TO DO experiment with this class
+// .evo-link-inverse
+a.evo-link-inverse:link               { color: $link_color_inverse !important;           text-decoration: $text_decoration_link !important; }
+a.evo-link-inverse:visited            { color: $link_color_inverse_visited !important;   text-decoration: $text_decoration_visited !important; }
+a.evo-link-inverse:hover              { color: $link_color_inverse_hover !important;     text-decoration: $text_decoration_hover !important; }
+a.evo-link-inverse:active             { color: $link_color_inverse_active !important;    text-decoration: $text_decoration_active !important; }
+// .evo-active-inverse          { color: $link_color_inverse_active;    text-decoration: $text_decoration_active; }
+
+// }
+
+// Branded Links
+// http://stackoverflow.com/questions/4531208/different-color-links-on-the-same-html-page
+
+a.brand-color-1             { color: $link_color; }
+// a.brand-color-1:link        { color: $link_color;    text-decoration: $text_decoration_link; }
+// a.brand-color-1:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
+a.brand-color-1:hover       { color: $brand_color_1; text-decoration: $text_decoration_hover; }
+a.brand-color-1:active      { color: $brand_color_1; text-decoration: $text_decoration_active; }
+
+
+a.brand-color-2             { color: $link-color; }
+// a.brand-color-2:link        { color: $link-color;    text-decoration: $text_decoration_link; }
+// a.brand-color-2:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
+a.brand-color-2:hover       { color: $brand_color_2; text-decoration: $text_decoration_hover; }
+a.brand-color-2:active      { color: $brand_color_2; text-decoration: $text_decoration_active; }
+
+
+a.brand-color-3             { color: $link_color; }
+// a.brand-color-3:link        { color: $link_color; text-decoration: $text_decoration_link; }
+// a.brand-color-3:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
+a.brand-color-3:hover       { color: $brand_color_3; text-decoration: $text_decoration_hover; }
+a.brand-color-3:active      { color: $brand_color_3; text-decoration: $text_decoration_active; }
+
+
+a.brand-color-4             { color: $link_color; }
+// a.brand-color-4:link        { color: $link_color; text-decoration: $text_decoration_link; }
+// a.brand-color-4:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
+a.brand-color-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
+a.brand-color-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
+
+// structural code for the branding.html file.
+
+// Inverse 
+
+
+a.evo-inverse:link              { color: $link_color_inverse;           text-decoration: $text_decoration_link; }
+a.evo-inverse:visited           { color: $link_color_inverse_visited;   text-decoration: $text_decoration_visited; }
+a.evo-inverse:hover             { color: $link_color_inverse_hover;     text-decoration: $text_decoration_hover; }
+a.evo-inverse:active            { color: $link_color_inverse_active;    text-decoration: $text_decoration_active; }
+.evo-inverse-active             { color: $link_color_inverse_active;    text-decoration: $text_decoration_active; }
+
+
+a.brand-color-inverse-1             { color: $link_color_inverse; }
+// a.brand-color-inverse-1:link        { color: $brand_color_1; text-decoration: $text_decoration_link; }
+// a.brand-color-inverse-1:visited     { color: $brand_color_1; text-decoration: $text_decoration_visited; }
+a.brand-color-inverse-1:hover       { color: $brand_color_1; text-decoration: $text_decoration_hover; }
+a.brand-color-inverse-1:active      { color: $brand_color_1; text-decoration: $text_decoration_active; }
+
+
+a.brand-color-inverse-2             { color: $link_color_inverse; }
+// a.brand-color-inverse-2:link        { color: $brand_color_2; text-decoration: $text_decoration_link; }
+// a.brand-color-inverse-2:visited     { color: $brand_color_2; text-decoration: $text_decoration_visited; }
+a.brand-color-inverse-2:hover       { color: $brand_color_2; text-decoration: $text_decoration_hover; }
+a.brand-color-inverse-2:active      { color: $brand_color_2; text-decoration: $text_decoration_active; }
+
+a.brand-color-inverse-3             { color: $link_color_inverse; }
+// a.brand-color-inverse-3:link        { color: $brand_color_3; text-decoration: $text_decoration_link; }
+// a.brand-color-inverse-3:visited     { color: $brand_color_3; text-decoration: $text_decoration_visited; }
+a.brand-color-inverse-3:hover       { color: $brand_color_3; text-decoration: $text_decoration_hover; }
+a.brand-color-inverse-3:active      { color: $brand_color_3; text-decoration: $text_decoration_active; }
+
+a.brand-color-inverse-4             { color: $link_color_inverse; }
+// a.brand-color-inverse-4:link        { color: $brand_color_3; text-decoration: $text_decoration_link; }
+// a.brand-color-inverse-4:visited     { color: $brand_color_3; text-decoration: $text_decoration_visited; }
+a.brand-color-inverse-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
+a.brand-color-inverse-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
+
+
+
+
+/* ================================================================================ */
+/* -------------------------- STYLEGUIDE TEXT HIGHLIGHTS -------------------------- */
+/* ================================================================================ */ 
+
+
+p.highlight,
+::-moz-selection {
+  background: $brand_color_1;
+  color: $white_evo;
+}
+
+
+p.highlight,
+::selection {
+  background: $brand_color_1;
+  color: $white_evo;
+}
+
+
+p.highlight-1,
+.brand-color-1-highlight::-moz-selection {
+  background: $brand_color_1;
+  color: $white_evo;
+}
+
+
+p.highlight-1,
+.brand-color-1-highlight::selection {
+  background: $brand_color_1;
+  color: $white_evo;
+}
+
+
+p.highlight-2,
+.brand-color-2-highlight::-moz-selection {
+  background: $brand_color_2;
+  color: $white_evo;
+}
+
+
+p.highlight-2,
+.brand-color-2-highlight::selection {
+  background: $brand_color_2;
+  color: $white_evo;
+}
+
+
+p.highlight-3,
+.brand-color-3-highlight::-moz-selection {
+  background: $brand_color_3;
+  color: $white_evo;
+}
+
+
+p.highlight-3,
+.brand-color-3-highlight::selection {
+  background: $brand_color_3;
+  color: $white_evo;
+}
+
+
+p.highlight-4,
+.brand-color-4-highlight::-moz-selection {
+  background: $brand_color_4;
+  color: $white_evo;
+}
+
+
+p.highlight-4,
+.brand-color-4-highlight::selection {
+  background: $brand_color_4;
+  color: $white_evo;
+}
+
+
+
+
+// ================================================================================
+// ------------------------------ STYLEGUIDE SPACERS ------------------------------
+// ================================================================================ 
+
+// TIP: Reveal spacers with a background color
+
+%evo-space-base {
+        // background-color: $cmy_green_evo;
+}
+
+.evo-space-biggest                  { @extend %evo-space-30; }
+.evo-space-bigger                   { @extend %evo-space-25; }
+.evo-space-big                      { @extend %evo-space-20; }
+.evo-space                          { @extend %evo-space-15; }
+.evo-space-small                    { @extend %evo-space-10; }
+.evo-space-smaller                  { @extend %evo-space-5; }
+.evo-space-smallest                 { @extend %evo-space-2; }
+
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE IMAGES ------------------------------- */
+/* ================================================================================ */ 
+
+%evo-image-style-base                     {
+    border-radius: $image_corners_evo;
+    @extend %evo-gray-50-bg;
+}   
+
+.evo-image-widest                   { @extend %evo-image-wide-20; @extend %evo-image-style-base; }
+.evo-image-wider                    { @extend %evo-image-wide-50; @extend %evo-image-style-base; }
+.evo-image-wide                     { @extend %evo-image-wide-80; @extend %evo-image-style-base; }
+.evo-image                          { @extend %evo-image-square;  @extend %evo-image-style-base; }
+.evo-image-tall                     { @extend %evo-image-tall-20; @extend %evo-image-style-base; }
+.evo-image-taller                   { @extend %evo-image-tall-50; @extend %evo-image-style-base; }
+.evo-image-tallest                  { @extend %evo-image-tall-80; @extend %evo-image-style-base; }
+
+
+
+
+/* ================================================================================ */
+/* ------------------------------ STYLEGUIDE BUTTONS ------------------------------ */
+/* ================================================================================ */ 
+
+%evo-button-base                    {
+    // color: $button_color;  // Defined by button colors in COLORS above
+    // border-color: $button_border_color;
+    // background-color: $button_background_color;
+    border-radius: 0px;
+    // font-family: $button_fonts;
+    display: inline-block;
+    // background: none;
+    // @extend %brand-color-1-button;
+}
+
+.evo-button-biggest         { @extend %evo-button-16; @extend %evo-button-base; }
+.evo-button-bigger          { @extend %evo-button-14; @extend %evo-button-base; }
+.evo-button-big             { @extend %evo-button-12; @extend %evo-button-base; }
+.evo-button                 { @extend %evo-button-10; @extend %evo-button-base; }
+.evo-button-small           { @extend %evo-button-8;  @extend %evo-button-base; }
+.evo-button-smaller         { @extend %evo-button-6;  @extend %evo-button-base; }
+.evo-button-smallest        { @extend %evo-button-4;  @extend %evo-button-base; }
+
+
+// Inverse 
+
+%evo-button-inverse-base             {
+    color: $button_color_inverse;   // Defined by button colors in COLORS above
+    // background-color: $button_background_color_inverse;
+    border-radius: 0px;
+    // font-family: $button_fonts;
+    display: inline-block;
+    // border: $button_border_inverse;
+    // a:hover {
+    //     border-color: $link_color_inverse_hover !important;
+    // }
+}
+
+.evo-button-inverse-biggest     { @extend %evo-button-16; @extend %evo-button-inverse-base; }
+.evo-button-inverse-bigger      { @extend %evo-button-14; @extend %evo-button-inverse-base; }
+.evo-button-inverse-big         { @extend %evo-button-12; @extend %evo-button-inverse-base; }
+.evo-button-inverse             { @extend %evo-button-10; @extend %evo-button-inverse-base; }
+.evo-button-inverse-small       { @extend %evo-button-8;  @extend %evo-button-inverse-base; }
+.evo-button-inverse-smaller     { @extend %evo-button-6;  @extend %evo-button-inverse-base; }
+.evo-button-inverse-smallest    { @extend %evo-button-4;  @extend %evo-button-inverse-base; }
+
+.evo-button-inverse-biggest:hover,
+.evo-button-inverse-bigger:hover,
+.evo-button-inverse-big:hover,
+.evo-button-inverse:hover,
+.evo-button-inverse-small:hover,
+.evo-button-inverse-smaller:hover,
+.evo-button-inverse-smallest:hover {
+    @extend .brand-color-inverse-1-button:hover;
+}
+
+
+
+
+
+/* ================================================================================ */
+/* ------------------------------- STYLEGUIDE FORMS ------------------------------- */
+/* ================================================================================ */ 
+
+
+
+%evo-form-base {
+    display: block;
+    overflow: auto;
+    @extend .evo-font-1;        
+    // .evo-black;
+    // .evo-white-bg;
+    // border-radius: $form_corners_evo;
+    // textarea { resize: vertical; }
+}
+
+// .evo-form-biggest
+// .evo-form-bigger
+// .evo-form-big
+// .evo-form                      { @extend %evo-form-10; @extend %evo-text-10; @extend %evo-form-base; }
+// .evo-form-small
+// .evo-form-smaller
+// .evo-form-smallest
+
+// Text
+
+.evo-form-text-biggest         { @extend %evo-form-16-text; @extend %evo-form-base; }
+.evo-form-text-bigger          { @extend %evo-form-14-text; @extend %evo-form-base; }
+.evo-form-text-big             { @extend %evo-form-12-text; @extend %evo-form-base; }
+.evo-form-text                 { @extend %evo-form-10-text; @extend %evo-form-base; }
+.evo-form-text-small           { @extend %evo-form-8-text; @extend %evo-form-base; }
+.evo-form-text-smaller         { @extend %evo-form-6-text; @extend %evo-form-base; }
+.evo-form-text-smallest        { @extend %evo-form-4-text; @extend %evo-form-base; }
+
+
+// Dropdown
+
+.evo-form-dropdown-biggest         { @extend %evo-form-16-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown-bigger          { @extend %evo-form-14-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown-big             { @extend %evo-form-12-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown                 { @extend %evo-form-10-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown-small           { @extend %evo-form-8-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown-smaller         { @extend %evo-form-6-dropdown; @extend %evo-form-base; }
+.evo-form-dropdown-smallest        { @extend %evo-form-4-dropdown; @extend %evo-form-base; }
+
+
+// Checkbox 
+
+.evo-form-checkbox-biggest         { @extend %evo-form-16-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox-bigger          { @extend %evo-form-14-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox-big             { @extend %evo-form-12-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox                 { @extend %evo-form-10-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox-small           { @extend %evo-form-8-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox-smaller         { @extend %evo-form-6-checkbox; @extend %evo-form-base; }
+.evo-form-checkbox-smallest        { @extend %evo-form-4-checkbox; @extend %evo-form-base; }
+
+
+// Radiobuttons 
+
+.evo-form-radio-biggest         { @extend %evo-form-16-radio; @extend %evo-form-base; }
+.evo-form-radio-bigger          { @extend %evo-form-14-radio; @extend %evo-form-base; }
+.evo-form-radio-big             { @extend %evo-form-12-radio; @extend %evo-form-base; }
+.evo-form-radio                 { @extend %evo-form-10-radio; @extend %evo-form-base; }
+.evo-form-radio-small           { @extend %evo-form-8-radio; @extend %evo-form-base; }
+.evo-form-radio-smaller         { @extend %evo-form-6-radio; @extend %evo-form-base; }
+.evo-form-radio-smallest        { @extend %evo-form-4-radio; @extend %evo-form-base; }
+
+
+// Inverse 
+
+
+%evo-form-inverse-base {
+    display: block;
+    overflow: auto;
+    @extend .evo-font-1;
+    @extend .evo-white;
+    // @extend .evo-black-bg;
+    input, 
+    textarea,
+    select { @extend .evo-black-bg; }
+    border-radius: $form_corners_evo;
+    textarea { resize: vertical; }
+}
+
+// .evo-form-inverse-biggest
+// .evo-form-inverse-bigger
+// .evo-form-inverse-big
+// .evo-form-inverse           { @extend %evo-form-10; @extend %evo-text-10; @extend %evo-form-inverse-base; }
+// .evo-form-inverse-small
+// .evo-form-inverse-smaller
+// .evo-form-inverse-smallest
+
+
+// Text Inverse
+
+.evo-form-text-inverse-biggest         { @extend %evo-form-16-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse-bigger          { @extend %evo-form-14-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse-big             { @extend %evo-form-12-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse                 { @extend %evo-form-10-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse-small           { @extend %evo-form-8-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse-smaller         { @extend %evo-form-6-text; @extend %evo-form-inverse-base; }
+.evo-form-text-inverse-smallest        { @extend %evo-form-4-text; @extend %evo-form-inverse-base; }
+
+
+// Dropdown Inverse
+
+.evo-form-dropdown-inverse-biggest         { @extend %evo-form-16-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse-bigger          { @extend %evo-form-14-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse-big             { @extend %evo-form-12-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse                 { @extend %evo-form-10-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse-small           { @extend %evo-form-8-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse-smaller         { @extend %evo-form-6-dropdown; @extend %evo-form-inverse-base; }
+.evo-form-dropdown-inverse-smallest        { @extend %evo-form-4-dropdown; @extend %evo-form-inverse-base; }
+
+
+// Checkbox Inverse
+
+.evo-form-checkbox-inverse-biggest         { @extend %evo-form-16-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse-bigger          { @extend %evo-form-14-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse-big             { @extend %evo-form-12-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse                 { @extend %evo-form-10-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse-small           { @extend %evo-form-8-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse-smaller         { @extend %evo-form-6-checkbox; @extend %evo-form-inverse-base; }
+.evo-form-checkbox-inverse-smallest        { @extend %evo-form-4-checkbox; @extend %evo-form-inverse-base; }
+
+
+// Radio Inverse 
+
+.evo-form-radio-inverse-biggest         { @extend %evo-form-16-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse-bigger          { @extend %evo-form-14-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse-big             { @extend %evo-form-12-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse                 { @extend %evo-form-10-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse-small           { @extend %evo-form-8-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse-smaller         { @extend %evo-form-6-radio; @extend %evo-form-inverse-base; }
+.evo-form-radio-inverse-smallest        { @extend %evo-form-4-radio; @extend %evo-form-inverse-base; }
+
+
+
+
+// ================================================================================
+// ------------------------------ STYLEGUIDE ICONS --------------------------------
+// ================================================================================ 
+
+
+/* Icon Sizes */
+
+
+/* This is duplication of _icons.scss located in scss/icons/_icons.scss */
+.evo-icon-4         { width: $text_font_size+$text_font_size_increment*4rem; height: $text_font_size+$text_font_size_increment*4rem; }
+.evo-icon-5         { width: $text_font_size+$text_font_size_increment*5rem; height: $text_font_size+$text_font_size_increment*5rem; }
+.evo-icon-6         { width: $text_font_size+$text_font_size_increment*6rem; height: $text_font_size+$text_font_size_increment*6rem; }
+.evo-icon-7         { width: $text_font_size+$text_font_size_increment*7rem; height: $text_font_size+$text_font_size_increment*7rem; }
+.evo-icon-8         { width: $text_font_size+$text_font_size_increment*8rem; height: $text_font_size+$text_font_size_increment*8rem; }
+.evo-icon-9         { width: $text_font_size+$text_font_size_increment*9rem; height: $text_font_size+$text_font_size_increment*9rem; }
+.evo-icon-10        { width: $text_font_size+$text_font_size_increment*10rem; height: $text_font_size+$text_font_size_increment*10rem; }
+.evo-icon-11        { width: $text_font_size+$text_font_size_increment*11rem; height: $text_font_size+$text_font_size_increment*11rem; }
+.evo-icon-13        { width: $text_font_size+$text_font_size_increment*13rem; height: $text_font_size+$text_font_size_increment*13rem; }
+.evo-icon-18        { width: $text_font_size+$text_font_size_increment*18rem; height: $text_font_size+$text_font_size_increment*18rem; }
+.evo-icon-22        { width: $text_font_size+$text_font_size_increment*22rem; height: $text_font_size+$text_font_size_increment*22rem; }
+.evo-icon-30        { width: $text_font_size+$text_font_size_increment*30rem; height: $text_font_size+$text_font_size_increment*30rem; }
+
+
+
+
+%evo-icon-base                      {
+    @extend .evo-black;
+    // border-radius: $icon_corners_evo;  
+}
+
+.evo-icon-header-biggest               { @extend .evo-icon-30; @extend %evo-icon-base; }
+.evo-icon-header-bigger                { @extend .evo-icon-22; @extend %evo-icon-base; }
+.evo-icon-header-big                   { @extend .evo-icon-18; @extend %evo-icon-base; }
+.evo-icon-header                       { @extend .evo-icon-13; @extend %evo-icon-base; }
+.evo-icon-header-small                 { @extend .evo-icon-11; @extend %evo-icon-base; }
+.evo-icon-header-smaller               { @extend .evo-icon-8; @extend %evo-icon-base; }
+.evo-icon-header-smallest              { @extend .evo-icon-4; @extend %evo-icon-base; }
+
+.evo-icon-biggest               { @extend .evo-icon-11; @extend %evo-icon-base; }
+.evo-icon-bigger                { @extend .evo-icon-10; @extend %evo-icon-base; }
+.evo-icon-big                   { @extend .evo-icon-9; @extend %evo-icon-base; }
+.evo-icon                       { @extend .evo-icon-8; @extend %evo-icon-base; }
+.evo-icon-small                 { @extend .evo-icon-7; @extend %evo-icon-base; }
+.evo-icon-smaller               { @extend .evo-icon-6; @extend %evo-icon-base; }
+.evo-icon-smallest              { @extend .evo-icon-5; @extend %evo-icon-base; }
+
+// Inverse 
+
+
+%evo-icon-inverse-base                {
+    @extend .evo-white;
+}
+
+.evo-icon-header-inverse-biggest               { @extend .evo-icon-30; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse-bigger                { @extend .evo-icon-22; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse-big                   { @extend .evo-icon-18; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse                       { @extend .evo-icon-13; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse-small                 { @extend .evo-icon-11; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse-smaller               { @extend .evo-icon-8; @extend %evo-icon-inverse-base; }
+.evo-icon-header-inverse-smallest              { @extend .evo-icon-4; @extend %evo-icon-inverse-base; }
+
+.evo-icon-inverse-biggest       { @extend .evo-icon-11; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse-bigger        { @extend .evo-icon-10; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse-big           { @extend .evo-icon-9; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse               { @extend .evo-icon-8; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse-small         { @extend .evo-icon-7; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse-smaller       { @extend .evo-icon-6; @extend %evo-icon-inverse-base; }
+.evo-icon-inverse-smallest      { @extend .evo-icon-5; @extend %evo-icon-inverse-base; }
+
+// .evo-icon-squared
+// .evo-icon-circle
+// .evo-icon-rounded
+
+
+// ///* On Hover */
+
+// .evo-icon-arrow-right-book:hover {
+//   transition: 1s;
+//   @extend %evo-icon-transform-180;
+
+// }
+
+// ================================================================================
+// ----------------------- STYLEGUIDE PAGE STRUCTURAL CSS -------------------------
+// ================================================================================ 
+
+// Alternately known as branding or toolkit.
+
+// DELETE BELOW
+
+// .brand-color-1-link         { @extend %.brand-color-1:link; }
+// .brand-color-1-visited      { @extend %.brand-color-1:visited; }
+// .brand-color-1-hover        { @extend %.brand-color-1:hover; }
+// .brand-color-1-active       { @extend %.brand-color-1:active; }
+
+// .brand-color-2-link         { @extend %.brand-color-2:link; }
+// .brand-color-2-visited      { @extend %.brand-color-2:visited; }
+// .brand-color-2-hover        { @extend %.brand-color-2:hover; }
+// .brand-color-2-active       { @extend %.brand-color-2:active; }
+
+// .brand-color-3-link         { @extend %.brand-color-3:link; }
+// .brand-color-3-visited      { @extend %.brand-color-3:visited; }
+// .brand-color-3-hover        { @extend %.brand-color-3:hover; }
+// .brand-color-3-active       { @extend %.brand-color-3:active; }
+
+// .brand-color-4-link         { @extend %.brand-color-4:link; }
+// .brand-color-4-visited      { @extend %.brand-color-4:visited; }
+// .brand-color-4-hover        { @extend %.brand-color-4:hover; }
+// .brand-color-4-active       { @extend %.brand-color-4:active; }
+
+// DELETE ABOVE
+
+
+
+
+// ================================================================================
+// ------------------------ STYLEGUIDE BUTTON HIGHLIGHTS -------------------------
+// ================================================================================ 
+
+// @for $i from 1 through 4 {
+//     .brand-color-#{$i}-button {
+//         @extend %evo-button-25;
+//     }
+// }
+
+// Define button font-color and border-color on hover
+// a:hover span {
+//   color: $button_color_hover; // $button_color !important;
+//   border-color: $button_color_hover; // $button_border_color !important;
+// }
+
+
+.brand-color-1-button,
+.brand-color-2-button,
+.brand-color-3-button,
+.brand-color-4-button {
+    // @extend %evo-button-base;
+    // @extend %evo-button-14;
+}
+
+
+.brand-color-button-link        { @extend %evo-button-14; color: $link_color; border-color: $link_color; }
+.brand-color-button-visited     { @extend %evo-button-14; color: $link_color; border-color: $link_color; }
+.brand-color-button-hover       { @extend %evo-button-14; color: $link_color; border-color: $link_color; }
+.brand-color-button-active      { @extend %evo-button-14; color: $link_color; border-color: $link_color; }
+
+
+.brand-color-1-button:hover  { color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-2-button:hover  { color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-3-button:hover  { color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-4-button:hover  { color: $brand_color_4; border-color: $brand_color_4; }
+
+
+.brand-color-1-button-hover       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-2-button-hover       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-3-button-hover       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-4-button-hover       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+
+
+.brand-color-1-button-active       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-2-button-active       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-3-button-active       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-4-button-active       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+
+
+/* Inverse */
+
+.brand-color-inverse-1-button,
+.brand-color-inverse-2-button,
+.brand-color-inverse-3-button,
+.brand-color-inverse-4-button {
+    @extend %evo-button-inverse-base;
+    // @extend %evo-button-14;
+
+
+}
+
+
+.brand-color-inverse-button-link        { @extend %evo-button-14; color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-button-visited     { @extend %evo-button-14; color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-button-hover       { @extend %evo-button-14; color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-button-active      { @extend %evo-button-14; color: $link_color_inverse; border-color: $link_color_inverse; }
+
+
+.brand-color-inverse-1-button:hover  { color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-inverse-2-button:hover  { color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-inverse-3-button:hover  { color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-inverse-4-button:hover  { color: $brand_color_4; border-color: $brand_color_4; }
+
+
+
+.brand-color-inverse-1-button-hover       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-inverse-2-button-hover       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-inverse-3-button-hover       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-inverse-4-button-hover       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+
+
+.brand-color-inverse-1-button-active       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-inverse-2-button-active       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-inverse-3-button-active       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-inverse-4-button-active       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+
