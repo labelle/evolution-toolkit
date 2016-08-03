@@ -24,6 +24,7 @@ var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 var neat = require('node-neat').includePaths;
+var merge = require('merge-stream');
 
 /* Scripts task */
 gulp.task('scripts', function() {
@@ -41,7 +42,7 @@ gulp.task('scripts', function() {
 
 /* Sass task */
 gulp.task('sass', function () {  
-    gulp.src('scss/evo-toolkit.scss')
+var toolkit = gulp.src('scss/evo-toolkit.scss')
     .pipe(plumber())
     .pipe(sass({
         includePaths: ['scss'].concat(neat)
@@ -52,6 +53,33 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('css'))
     /* Reload the browser CSS after every change */
     .pipe(reload({stream:true}));
+
+var iconsCmyGreen = gulp.src('scss/icons-cmy-green.scss')
+    .pipe(plumber())
+    .pipe(sass({
+        includePaths: ['scss'].concat(neat)
+    }))
+    .pipe(gulp.dest('css'))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(minifycss())
+    .pipe(gulp.dest('css'))
+    /* Reload the browser CSS after every change */
+    .pipe(reload({stream:true}));
+
+var iconsInverse = gulp.src('scss/icons-inverse.scss')
+    .pipe(plumber())
+    .pipe(sass({
+        includePaths: ['scss'].concat(neat)
+    }))
+    .pipe(gulp.dest('css'))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(minifycss())
+    .pipe(gulp.dest('css'))
+    /* Reload the browser CSS after every change */
+    .pipe(reload({stream:true}));
+
+    return merge(toolkit, iconsCmyGreen, iconsInverse);
+
 });
 
 /* Reload task */

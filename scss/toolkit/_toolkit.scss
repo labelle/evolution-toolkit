@@ -343,6 +343,180 @@ body, html {
 
 
 
+// Inverse 
+
+.evo-list-bullets-inverse-base {
+    @extend .evo-white;
+}
+
+.evo-list-bullets-inverse-biggest  { 
+ @extend .evo-list-bullets-inverse-base;
+ line-height: $text_line_height+$text_line_height_increment*16rem/1.1;
+font-size: $text_font_size+$text_font_size_increment*16rem;
+letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*16rem);
+}
+ul.evo-list-bullets-inverse-biggest {
+    @extend .evo-list-bullets-inverse-biggest;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-biggest li {
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*11rem/$text_line_height_increment_divide_amount)/1.2;
+    background-size: ($text_font_size+$text_font_size_increment*16rem/$text_padding_left_divide_amount);
+    padding-left: (($text_font_size+$text_font_size_increment*16rem/5)+$text_padding_left_add_amount);
+    margin-top: $text_font_size+$text_font_size_increment*16rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*16rem/1.1;
+}
+
+.evo-list-bullets-inverse-bigger   { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*14rem/1.1;
+    font-size: $text_font_size+$text_font_size_increment*14rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*14rem);
+}
+ul.evo-list-bullets-inverse-bigger   { 
+    @extend .evo-list-bullets-inverse-bigger;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-bigger li { 
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*11rem/$text_line_height_increment_divide_amount)/1.4;
+    background-size: ($text_font_size+$text_font_size_increment*14rem/$text_padding_left_divide_amount);
+    padding-left: (($text_font_size+$text_font_size_increment*14rem/5)+$text_padding_left_add_amount);
+    margin-top: $text_font_size+$text_font_size_increment*14rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*14rem/1.1;
+}
+
+.evo-list-bullets-inverse-big      { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*12rem/1.1;
+    font-size: $text_font_size+$text_font_size_increment*12rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*12rem);
+}
+ul.evo-list-bullets-inverse-big      {
+    @extend .evo-list-bullets-inverse-big;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-big li  {
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*11rem/$text_line_height_increment_divide_amount)/1.5;
+    background-size: ($text_font_size+$text_font_size_increment*12rem/$text_padding_left_divide_amount);
+    padding-left: (($text_font_size+$text_font_size_increment*12rem/5)+$text_padding_left_add_amount);
+    margin-top: $text_font_size+$text_font_size_increment*12rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*12rem/1.1;
+}
+
+.evo-list-bullets-inverse          { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*10rem;
+    font-size: $text_font_size+$text_font_size_increment*10rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*10rem);
+}
+ul.evo-list-bullets-inverse          { 
+    @extend .evo-list-bullets-inverse ;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse li    { 
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*10rem/$text_line_height_increment_divide_amount)/1.5;
+    background-size: ($text_font_size+$text_font_size_increment*10rem/$text_padding_left_divide_amount);
+    padding-left: (($text_font_size+$text_font_size_increment*10rem/5)+$text_padding_left_add_amount)/1.2;
+    margin-top: $text_font_size+$text_font_size_increment*10rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*10rem;
+}
+
+.evo-list-bullets-inverse-small    { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*8rem;
+    font-size: $text_font_size+$text_font_size_increment*8rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*8rem);
+}
+ul.evo-list-bullets-inverse-small {
+    @extend .evo-list-bullets-inverse-small;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-small li {
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*8rem/$text_line_height_increment_divide_amount)/1.8;
+    background-size: ($text_font_size+$text_font_size_increment*8rem/$text_padding_left_divide_amount);
+    padding-left: (($text_font_size+$text_font_size_increment*8rem/5)+$text_padding_left_add_amount)/1.2;
+    margin-top: $text_font_size+$text_font_size_increment*8rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*8rem;
+}
+.evo-list-bullets-inverse-smaller  { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*6rem;
+    font-size: $text_font_size+$text_font_size_increment*6rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*6rem);
+}
+ul.evo-list-bullets-inverse-smaller  { 
+    @extend .evo-list-bullets-inverse-smaller;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-smaller  li {
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*6rem/$text_line_height_increment_divide_amount)/1.7;
+    background-size: ($text_font_size+$text_font_size_increment*6rem/$text_padding_left_divide_amount)/1.2;
+    padding-left: (($text_font_size+$text_font_size_increment*6rem/5)+$text_padding_left_add_amount)/1.5;
+    margin-top: $text_font_size+$text_font_size_increment*6rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*6rem;
+}
+.evo-list-bullets-inverse-smallest { 
+    @extend .evo-list-bullets-inverse-base; 
+    line-height: $text_line_height+$text_line_height_increment*4rem;
+    font-size: $text_font_size+$text_font_size_increment*4rem;
+    letter-spacing: $text_letter_spacing+-calc($text_letter_spacing_increment*4rem);
+} 
+ul.evo-list-bullets-inverse-smallest { 
+    @extend .evo-list-bullets-inverse-smallest;
+    list-style-type: none; 
+    margin-top: .5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.evo-list-bullets-inverse-smallest li {
+    margin-left: 0;
+    padding-left: 0;
+    background: url('../icons-inverse/book-inverse/circle-solid-book-inverse.svg') no-repeat left center;
+    background-position: 0px ($text_line_height+$text_line_height_increment*4rem/$text_line_height_increment_divide_amount)/1.9;
+    background-size: ($text_font_size+$text_font_size_increment*4rem/$text_padding_left_divide_amount)/1.2;
+    padding-left: (($text_font_size+$text_font_size_increment*4rem/5)+$text_padding_left_add_amount)/1.5;
+    margin-top: $text_font_size+$text_font_size_increment*4rem*.5;
+    line-height: $text_font_size+$text_font_size_increment*4rem;
+}
+
+
+
 // Lines
 
 

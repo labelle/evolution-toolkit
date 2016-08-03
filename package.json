@@ -18,6 +18,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^1.5.4",
+    "merge-stream": "^1.0.0",
     "node-neat": "^1.7.2"
   }
 }
