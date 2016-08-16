@@ -1,13 +1,13 @@
 /*******************************************************************************
 *
-* styleguide.css
+* evo-toolkit.css
 *
-* This is a styleguide framework
+* This is a toolkit framework
 * It uses the Elements framework as a skeleton foundation 
 * 
-* _styleguide.scss is importing only one file that is needed to work properly,
+* _toolkit.scss is importing only one file that is needed to work properly,
 * that file is _variables.scss. If variable name would change in _variables.scss they
-* would have to be changed in _styleguide.scss and its relevant elements scss file.
+* would have to be changed in _toolkit.scss and its relevant elements scss file.
 *
 *******************************************************************************/
 /* ================================================================================ */
@@ -2536,7 +2536,7 @@ a:hover {
   text-decoration: none; }
 
 a:active {
-  color: #00a651;
+  color: #000000;
   text-decoration: none; }
 
 .evo-active {
@@ -2555,7 +2555,7 @@ a.evo-link-inverse:hover {
   text-decoration: none !important; }
 
 a.evo-link-inverse:active {
-  color: #00a651 !important;
+  color: #FFFFFF !important;
   text-decoration: none !important; }
 
 a.brand-color-1 {
@@ -2615,11 +2615,11 @@ a.evo-inverse:hover {
   text-decoration: none; }
 
 a.evo-inverse:active {
-  color: #00a651;
+  color: #FFFFFF;
   text-decoration: none; }
 
 .evo-inverse-active {
-  color: #00a651;
+  color: #FFFFFF;
   text-decoration: none; }
 
 a.brand-color-inverse-1 {
@@ -2804,6 +2804,30 @@ p.highlight-4,
   width: 3rem;
   height: 3rem; }
 
+.brand-color-1-hover {
+  color: #00a651; }
+
+.brand-color-1-active {
+  font-weight: bold; }
+
+.brand-color-2-hover {
+  color: #2e3192; }
+
+.brand-color-2-active {
+  font-weight: bold; }
+
+.brand-color-3-hover {
+  color: #00aeef; }
+
+.brand-color-3-active {
+  font-weight: bold; }
+
+.brand-color-4-hover {
+  color: #ec008c; }
+
+.brand-color-4-active {
+  font-weight: bold; }
+
 .brand-color-button-link {
   color: #000000;
   border-color: #000000; }
@@ -2853,20 +2877,24 @@ p.highlight-4,
   border-color: #ec008c; }
 
 .brand-color-1-button-active {
-  color: #00a651;
-  border-color: #00a651; }
+  color: #000000;
+  font-weight: bold;
+  border-color: #000000; }
 
 .brand-color-2-button-active {
-  color: #2e3192;
-  border-color: #2e3192; }
+  color: #000000;
+  font-weight: bold;
+  border-color: #000000; }
 
 .brand-color-3-button-active {
-  color: #00aeef;
-  border-color: #00aeef; }
+  color: #000000;
+  font-weight: bold;
+  border-color: #000000; }
 
 .brand-color-4-button-active {
-  color: #ec008c;
-  border-color: #ec008c; }
+  color: #000000;
+  font-weight: bold;
+  border-color: #000000; }
 
 /* Inverse */
 .brand-color-inverse-button-link {
@@ -2924,17 +2952,21 @@ p.highlight-4,
   border-color: #ec008c; }
 
 .brand-color-inverse-1-button-active {
-  color: #00a651;
-  border-color: #00a651; }
+  color: #FFFFFF;
+  font-weight: bold;
+  border-color: #FFFFFF; }
 
 .brand-color-inverse-2-button-active {
-  color: #2e3192;
-  border-color: #2e3192; }
+  color: #FFFFFF;
+  font-weight: bold;
+  border-color: #FFFFFF; }
 
 .brand-color-inverse-3-button-active {
-  color: #00aeef;
-  border-color: #00aeef; }
+  color: #FFFFFF;
+  font-weight: bold;
+  border-color: #FFFFFF; }
 
 .brand-color-inverse-4-button-active {
-  color: #ec008c;
-  border-color: #ec008c; }
+  color: #FFFFFF;
+  font-weight: bold;
+  border-color: #FFFFFF; }

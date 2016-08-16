@@ -1193,6 +1193,18 @@ p.highlight-4,
 
 
 
+.brand-color-1-hover        { color: $brand_color_1; }
+.brand-color-1-active       { font-weight: bold; }
+
+.brand-color-2-hover        { color: $brand_color_2; }
+.brand-color-2-active       {font-weight: bold; }
+
+.brand-color-3-hover        { color: $brand_color_3; }
+.brand-color-3-active       { font-weight: bold; }
+
+.brand-color-4-hover        { color: $brand_color_4; }
+.brand-color-4-active       { font-weight: bold; }
+
 
 // ================================================================================
 // ------------------------ TOOLKIT BUTTON HIGHLIGHTS -------------------------
@@ -1238,10 +1250,10 @@ p.highlight-4,
 .brand-color-4-button-hover       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
 
 
-.brand-color-1-button-active       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
-.brand-color-2-button-active       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
-.brand-color-3-button-active       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
-.brand-color-4-button-active       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+.brand-color-1-button-active       { @extend %evo-button-14; color: $link_color; font-weight: bold; border-color: $link_color; }
+.brand-color-2-button-active       { @extend %evo-button-14; color: $link_color; font-weight: bold; border-color: $link_color; }
+.brand-color-3-button-active       { @extend %evo-button-14; color: $link_color; font-weight: bold; border-color: $link_color; }
+.brand-color-4-button-active       { @extend %evo-button-14; color: $link_color; font-weight: bold; border-color: $link_color; }
 
 
 /* Inverse */
@@ -1276,8 +1288,8 @@ p.highlight-4,
 .brand-color-inverse-4-button-hover       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
 
 
-.brand-color-inverse-1-button-active       { @extend %evo-button-14; color: $brand_color_1; border-color: $brand_color_1; }
-.brand-color-inverse-2-button-active       { @extend %evo-button-14; color: $brand_color_2; border-color: $brand_color_2; }
-.brand-color-inverse-3-button-active       { @extend %evo-button-14; color: $brand_color_3; border-color: $brand_color_3; }
-.brand-color-inverse-4-button-active       { @extend %evo-button-14; color: $brand_color_4; border-color: $brand_color_4; }
+.brand-color-inverse-1-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
+.brand-color-inverse-2-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
+.brand-color-inverse-3-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
+.brand-color-inverse-4-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
 
