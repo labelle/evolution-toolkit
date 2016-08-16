@@ -87,9 +87,9 @@
 
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-md-8">
-        <p class="evo-text-intro">This system works most efficiently when a designer and developer</p>
-        <div class="evo-space-2"></div> 
-        <p class="evo-text-intro">Collaborate side-by-side to create web pages in-browser.</p>
+        <p class="evo-text-intro">Use this as a styleguide to manage a website’s look and feel, from 'agile' prototype to production.</p>
+        <div class="evo-space-2"></div>
+        <p class="evo-text-intro">Use with Elements to evolve your website in collaboration with designers and developers.</p>
       </div>
     </div>
 
@@ -103,55 +103,16 @@
 
     <div class="row">
       <div class="col-xs-12">
-        <div class="evo-space-big"></div>
+        <div class="evo-space"></div>
       </div>
     </div>
 
 
-    <h3 class="evo-header-bigger evo-no-line">How it works</h3>
-
-    <div class="evo-space-5"></div>
-
-    <p class="evo-text-intro">Create a CSS styleguide to manage website visuals.</p>
-
-    <div class="evo-space-25"></div>
-
-    <img width="100%" src="img/evolution/HowItWorks.png" alt="how it works" title="how it works">
-
-    <div class="evo-space-25"></div>
-
-    <p class="evo-text-intro">Evolution features a two-tiered system for managing UI elements and CSS styles.</p>
-    <div class="evo-space-2"></div> 
-    <p class="evo-text-intro">At the center of it is the toolkit. This is where you establish your basic brand color and brand fonts.</p>
-    <div class="evo-space-2"></div> 
-    <p class="evo-text-intro">It's also where you establish a 'UI Styleguide' of button sizes, header sizes, text sizes, etc.</p>
-    <div class="evo-space-2"></div> 
-    <p class="evo-text-intro">Here is example code to create a header in _styleguide.scss:</p>
-
-    <div class="evo-space-15"></div>
-
-    <div class="code">
-        <!-- .evo-no-line { <span class="comment-color">// this class removes the top border line from the evolution headers.</span> <br /><span class="indent-10">border-style: hidden !important;</span> <br /><span class="indent-10">border-top: 0px !important;</span> <br /> } -->
-        <div class="evo-space-5"></div>
-        .evo-header-base { <span class="comment-color">// this area allows for creating base css attributes for headers.</span> <br /><span class="indent-10">@extend .evo-no-line;</span> <span class="comment-color">// we'll include our .evo-no-line class that we created above.</span> <br /> }
-        <div class="evo-space-5"></div>
-        .evo-header-big { <span class="comment-color">// this is a semantic CSS class for defining a header size.</span> <br /><span class="indent-10">@extend .evo-header-20;</span> <span class="comment-color">// this style lives in evolution.less file and styleguide can use any class that lives inside of evolution.less file</span> <br /><span class="indent-10">@extend .evo-header-base;</span> <span class="comment-color">// we'll include our .evo-header-base class that we created above.</span> <br />}
-    </div>
-
-    <div class="evo-space-15"></div>
-
-    <p class="evo-text-intro">The _evolution.scss file features a 'skeleton' of UI elements and neutral colors that allow you to adjust sizes and typography very quickly, simply by swapping out one element for another.</p>
-    <div class="evo-space-2"></div>
-    <p class="evo-text-intro">For example: <code class="evo-text-8">evo-button-5</code> can quickly swap to a larger size <code class="evo-text-8">evo-button-10</code>.</p>  
-
-    <div class="evo-space-small"></div>
-
-    <div class="evo-space-big"></div>
 
     <a name="get-started"></a>
     <h3 class="evo-header-bigger evo-no-line" id="get-started">Get Started</h3> <!-- Get started -->
     <div class="evo-space-5"></div>
-      <p class="evo-text-intro">Choose a download and start prototyping in minutes. Jump right in with just the CSS files or get the source code for full control.</p>
+      <p class="evo-text-intro">Choose a download and start using toolkit in minutes. Jump right in with just the CSS files or get the Source Code for full control.</p>
       
       <div class="evo-space-10"></div>
 
@@ -171,7 +132,7 @@
 
       <h4 class="evo-header-big evo-no-line">Stylesheet</h4> <!-- Usage -->
       <div class="evo-space-5"></div>
-      <p class="evo-text-intro">The simplest way to start with icons is by including the following CSS or minified CSS link.</p>
+      <p class="evo-text-intro">The simplest way to start with toolkit is by including the following CSS or minified CSS link.</p>
       <div class="evo-space-2"></div>
       <p class="evo-text-intro">To do that, copy and paste the following code snippet into your project, right before the closing </head> tag.</p> 
       <div class="evo-space-20"></div>
@@ -195,13 +156,84 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h3 class="evo-header-bigger" id="icons">Toolkit</h3>
+            <h3 class="evo-header-bigger" id="icons">Usage</h3>
              <div class="evo-space-5"></div>
-            <p class="evo-text-intro">Use this as a styleguide to manage a website’s look and feel, from 'agile' prototype to production.</p>
+            <p class="evo-text-intro">If you only download the CSS files, you will not be able to change toolkit using elements.</p>
 
             <div class="evo-space-2"></div>
 
-            <p class="evo-text-intro">Use with Elements to evolve your website in collaboration with designers and developers.</p>
+            <p class="evo-text-intro">You will only be able to change toolkit using the compiled CSS, evo-toolkit.css.</p>
+
+            <div class="evo-space-2"></div>
+
+            <p class="evo-text-intro">For full use of toolkit, download the <a href="https://github.com/labelle/evolution-toolkit/tree/master">Source Code</a>, which will include _toolkit.scss.</p>
+
+            <div class="evo-space-2"></div>
+
+            <p class="evo-text-intro">Within _toolkit.scss, you can change classes by targeting their corresponding value.</p>
+
+            <div class="evo-space-20"></div>
+             <p class="evo-text">In the following example, we will change the <code>.evo-button-biggest</code> class. The value we want to target is highlighted in green.</p>
+             <div class="evo-space-10"></div>
+            <p class="evo-text-smaller">_toolkit.scss</p>  
+            <div class="evo-space-2"></div>
+
+          <div class="code">
+            <code>.evo-button-biggest</code>        { @extend <span class="value">%evo-button-16;</span> @extend %evo-button-base; } <br />
+            .evo-button-bigger         { @extend %evo-button-14; @extend %evo-button-base; } <br /> 
+            .evo-button-big            { @extend %evo-button-12; @extend %evo-button-base; } <br />
+            .evo-button                { @extend %evo-button-10; @extend %evo-button-base; } <br />
+            .evo-button-small          { @extend %evo-button-8;  @extend %evo-button-base; } <br />
+            .evo-button-smaller        { @extend %evo-button-6;  @extend %evo-button-base; } <br />
+            .evo-button-smallest       { @extend %evo-button-4;  @extend %evo-button-base; } <br />
+          </div>
+
+          <div class="evo-space-2"></div>
+            <p class="evo-text-smaller">evo-toolkit.css (compiled output)</p>  
+          <div class="code">
+            <code>.evo-button-biggest</code> { <br />
+              display: inline-block; <br />
+              padding-top: <span class="value">1.6225rem</span>; <br />
+              padding-bottom: <span class="value">1.53625rem</span>; <br />
+              padding-left: <span class="value">1.35rem</span>; <br />
+              padding-right: <span class="value">1.35rem</span>; <br />
+              font-size: <span class="value">1.83rem</span>; <br />
+              letter-spacing: <span class="value">-.1rem</span>; <br />
+              border: <span class="value">2px solid</span>; <br />
+          </div>
+
+            <div class="evo-space-5"></div>
+
+            <p class="evo-text">By changing the <span style="color: #00A651;">value</span>, we change the size of <code>.evo-button-biggest</code>.</p>
+
+            <div class="evo-space-10"></div>
+            <p class="evo-text-smaller">_toolkit.scss</p>  
+            <div class="evo-space-2"></div>
+
+            <div class="code">
+            <code>.evo-button-biggest</code>        { @extend <span class="value">%evo-button-18;</span> @extend %evo-button-base; } <br />
+            .evo-button-bigger         { @extend %evo-button-14; @extend %evo-button-base; } <br /> 
+            .evo-button-big            { @extend %evo-button-12; @extend %evo-button-base; } <br />
+            .evo-button                { @extend %evo-button-10; @extend %evo-button-base; } <br />
+            .evo-button-small          { @extend %evo-button-8;  @extend %evo-button-base; } <br />
+            .evo-button-smaller        { @extend %evo-button-6;  @extend %evo-button-base; } <br />
+            .evo-button-smallest       { @extend %evo-button-4;  @extend %evo-button-base; } <br />
+          </div>
+
+
+          <div class="evo-space-2"></div>
+            <p class="evo-text-smaller">evo-toolkit.css (compiled output)</p>  
+          <div class="code">
+            <code>.evo-button-biggest</code> { <br />
+                display: inline-block; <br />
+                padding-top: <span class="value">1.755rem</span>; <br />
+                padding-bottom: <span class="value">1.6525rem</span>; <br />
+                padding-left: <span class="value">1.45rem</span>; <br />
+                padding-right: <span class="value">1.45rem</span>; <br />
+                font-size: <span class="value">2.01rem</span>; <br />
+                letter-spacing: <span class="value">-.1rem</span>; <br />
+                border: <span class="value">2px solid</span>; <br />
+          </div>
   
             <div class="evo-space-25"></div>
       
@@ -209,18 +241,29 @@
 
             <div class="evo-space-5"></div>
 
-            <p class="evo-text-intro">Start with this basic HTML template after you download the <a href="https://github.com/labelle/evolution-toolkit/archive/download.zip">CSS &amp; Icons</a> or the <a href="https://github.com/labelle/evolution-toolkit/archive/master.zip">Source Code.</a></p>
+            <p class="evo-text-intro">Start with one of these basic HTML templates after you download the <a href="https://github.com/labelle/evolution-toolkit/tree/download">CSS files</a> or the <a href="https://github.com/labelle/evolution-toolkit/tree/master">Source Code.</a></p>
             
             <div class="evo-space-2"></div>
 
-            <p class="evo-text-intro">It is located in both downloads as 'toolkit-template.html'.</p>
+            <p class="evo-text-intro">There are two templates included. One for toolkit and one for toolkit inverse, called 'evolution-toolkit.html' and 'evolution-toolkit-inverse.html'.</p>
+
 
            <div class="evo-space-15"></div>
 
-          <style type="text/css">.gist-data {max-height: 500px;}</style>
+          <p class="evo-text-smaller">Toolkit Template</p>    
+          <div class="evo-space-5"></div>
+
+          <style type="text/css">.gist-data {max-height: 400px;}</style>
            <script src="https://gist.github.com/tomdanny/759415742401c620c9f2e5c70f8fd7a1.js"></script>
 
+          <div class="evo-space-15"></div>
 
+          <p class="evo-text-smaller">Toolkit Inverse Template</p>    
+          <div class="evo-space-5"></div>
+
+          <style type="text/css">.gist-data {max-height: 400px;}</style>
+           <script src="https://gist.github.com/tomdanny/f8d5105360ea7811b740dca11dc20bbb.js"></script>
+          
         </div>
      
   

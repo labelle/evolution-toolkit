@@ -426,6 +426,11 @@ Toggle lines above headers in templates/spacers.html file
 /********************************************************
 "code" boxes that show examples of programming language
 ********************************************************/
+.value {
+  color: #00a651;
+  background-color: rgba(0, 166, 81, .04);
+}
+
 .code {
   display: block;
   width: 100%;
