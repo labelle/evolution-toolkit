@@ -677,6 +677,41 @@ ul.evo-list-bullets-inverse-smallest li {
 .solid:hover span {   
     background-color: #00a651;
     border-color: #00a651;
+}
+
+
+.solid-inverse span {   
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #000000;
+}  
+
+.solid-inverse:hover span {   
+    background-color: #00a651;
+    border-color: #00a651;
+} 
+
+
+.ghost-solid span {   
+    border-color: #000000;
+    color: #000000;
+}  
+
+.ghost-solid:hover span {  
+    background-color: #00a651;
+    border-color: #00a651;
+    color: #FFFFFF;
+} 
+
+.ghost-solid-inverse span {   
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}  
+
+.ghost-solid-inverse:hover span {  
+    background-color: #00a651;
+    border-color: #00a651;
+    color: #FFFFFF;
 }  
 
 
@@ -754,6 +789,21 @@ a.brand-color-4-solid:hover span      { color: $white_evo; border-color: $brand_
 
 
 
+// Ghost-Solid Links
+
+a.brand-color-1-ghost-solid span           { color: $link_color; border-color: $link_color; }
+a.brand-color-1-ghost-solid:hover span      { color: $white_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
+
+a.brand-color-2-ghost-solid span           { color: $link_color; border-color: $link_color; }
+a.brand-color-2-ghost-solid:hover span      { color: $white_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
+
+a.brand-color-3-ghost-solid span           { color: $link_color; border-color: $link_color; }
+a.brand-color-3-ghost-solid:hover span      { color: $white_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
+
+a.brand-color-4-ghost-solid span           { color: $link_color; border-color: $link_color; }
+a.brand-color-4-ghost-solid:hover span      { color: $white_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
+
+
 
 
 // structural code for the branding.html file.
@@ -787,6 +837,55 @@ a.brand-color-inverse-3:active      { color: $brand_color_3; text-decoration: $t
 a.brand-color-inverse-4             { color: $link_color_inverse; }
 a.brand-color-inverse-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
+
+
+
+// Solid Inverse Links
+
+a.brand-color-inverse-1-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
+a.brand-color-inverse-1-solid:hover span      { color: $black_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-2-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
+a.brand-color-inverse-2-solid:hover span      { color: $black_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-3-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
+a.brand-color-inverse-3-solid:hover span      { color: $black_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-4-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
+a.brand-color-inverse-4-solid:hover span      { color: $black_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
+
+
+
+.brand-color-inverse-solid-button-link        { @extend %evo-button-14; color: $black_evo; background-color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-solid-button-visited     { @extend %evo-button-14; color: $black_evo; background-color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-solid-button-hover       { @extend %evo-button-14; color: $black_evo; background-color: $link_color_inverse; border-color: $link_color_inverse; }
+.brand-color-inverse-solid-button-active      { @extend %evo-button-14; color: $black_evo; background-color: $white_evo;  font-weight: bold; border-color: $white_evo;  }
+
+
+
+.brand-color-inverse-1-solid-button-hover       { @extend %evo-button-14; color: $black_evo; background-color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-inverse-2-solid-button-hover       { @extend %evo-button-14; color: $black_evo; background-color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-inverse-3-solid-button-hover       { @extend %evo-button-14; color: $black_evo; background-color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-inverse-4-solid-button-hover       { @extend %evo-button-14; color: $black_evo; background-color: $brand_color_4; border-color: $brand_color_4; }
+
+
+
+// Ghost-Solid Inverse Links
+
+a.brand-color-inverse-1-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
+a.brand-color-inverse-1-ghost-solid:hover span      { color: $black_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-2-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
+a.brand-color-inverse-2-ghost-solid:hover span      { color: $black_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-3-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
+a.brand-color-inverse-3-ghost-solid:hover span      { color: $black_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
+
+a.brand-color-inverse-4-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
+a.brand-color-inverse-4-ghost-solid:hover span      { color: $black_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
+
+
+
 
 
 

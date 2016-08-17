@@ -22,13 +22,169 @@ a:hover {
   -o-transition: border-color 0s ease, color 0s ease !important;
   transition: border-color 0s ease, color 0s ease !important; }
 
-a span {
+a.solid span {
   -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
   -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
   -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
   transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
 
-a:hover span {
+a.solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-1-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-1-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-2-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-2-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-3-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-3-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-4-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-4-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-1-ghost-solid span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-1-ghost-solid:hover span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-2-ghost-solid span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-2-ghost-solid:hover span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-3-ghost-solid span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-3-ghost-solid:hover span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-4-ghost-solid span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.brand-color-4-ghost-solid:hover span {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
+a.solid-inverse span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.solid-inverse:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-inverse-1-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-inverse-1-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-inverse-2-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-inverse-2-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-inverse-3-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-inverse-3-solid:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
+a.brand-color-inverse-4-solid span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a.brand-color-inverse-4-solid:hover span {
   -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
   -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
   -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
@@ -111,7 +267,7 @@ a:hover span {
 
 /* BUTTON 13 */
 /* BUTTON 14 */
-.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   display: inline-block;
   padding-top: 1.4625rem;
   padding-bottom: 1.29375rem;
@@ -121,7 +277,7 @@ a:hover span {
   letter-spacing: -.1rem;
   border: 2px solid; }
 
-.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   line-height: 0rem; }
 
 /* BUTTON 15 */
@@ -2480,6 +2636,33 @@ ul.evo-list-bullets-inverse-smallest li {
   background-color: #00a651;
   border-color: #00a651; }
 
+.solid-inverse span {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #000000; }
+
+.solid-inverse:hover span {
+  background-color: #00a651;
+  border-color: #00a651; }
+
+.ghost-solid span {
+  border-color: #000000;
+  color: #000000; }
+
+.ghost-solid:hover span {
+  background-color: #00a651;
+  border-color: #00a651;
+  color: #FFFFFF; }
+
+.ghost-solid-inverse span {
+  border-color: #FFFFFF;
+  color: #FFFFFF; }
+
+.ghost-solid-inverse:hover span {
+  background-color: #00a651;
+  border-color: #00a651;
+  color: #FFFFFF; }
+
 a:link {
   color: #000000;
   text-decoration: none; }
@@ -2627,6 +2810,46 @@ a.brand-color-4-solid:hover span {
   background-color: #ec008c;
   border-color: #ec008c; }
 
+a.brand-color-1-ghost-solid span {
+  color: #000000;
+  border-color: #000000; }
+
+a.brand-color-1-ghost-solid:hover span {
+  color: #FFFFFF;
+  border-color: #00a651;
+  background-color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-2-ghost-solid span {
+  color: #000000;
+  border-color: #000000; }
+
+a.brand-color-2-ghost-solid:hover span {
+  color: #FFFFFF;
+  border-color: #2e3192;
+  background-color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-3-ghost-solid span {
+  color: #000000;
+  border-color: #000000; }
+
+a.brand-color-3-ghost-solid:hover span {
+  color: #FFFFFF;
+  border-color: #00aeef;
+  background-color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-4-ghost-solid span {
+  color: #000000;
+  border-color: #000000; }
+
+a.brand-color-4-ghost-solid:hover span {
+  color: #FFFFFF;
+  border-color: #ec008c;
+  background-color: #ec008c;
+  text-decoration: none; }
+
 .evo-inverse a {
   color: #FFFFFF;
   text-decoration: none; }
@@ -2697,6 +2920,131 @@ a.brand-color-inverse-4:hover {
 
 a.brand-color-inverse-4:active {
   color: #ec008c;
+  text-decoration: none; }
+
+a.brand-color-inverse-1-solid span {
+  color: #000000;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
+
+a.brand-color-inverse-1-solid:hover span {
+  color: #000000;
+  border-color: #00a651;
+  background-color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-inverse-2-solid span {
+  color: #000000;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
+
+a.brand-color-inverse-2-solid:hover span {
+  color: #000000;
+  border-color: #2e3192;
+  background-color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-inverse-3-solid span {
+  color: #000000;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
+
+a.brand-color-inverse-3-solid:hover span {
+  color: #000000;
+  border-color: #00aeef;
+  background-color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-inverse-4-solid span {
+  color: #000000;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
+
+a.brand-color-inverse-4-solid:hover span {
+  color: #000000;
+  border-color: #ec008c;
+  background-color: #ec008c;
+  text-decoration: none; }
+
+.brand-color-inverse-solid-button-link {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-solid-button-visited {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-solid-button-hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-solid-button-active {
+  color: #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  border-color: #FFFFFF; }
+
+.brand-color-inverse-1-solid-button-hover {
+  color: #000000;
+  background-color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-inverse-2-solid-button-hover {
+  color: #000000;
+  background-color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-inverse-3-solid-button-hover {
+  color: #000000;
+  background-color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-inverse-4-solid-button-hover {
+  color: #000000;
+  background-color: #ec008c;
+  border-color: #ec008c; }
+
+a.brand-color-inverse-1-ghost-solid span {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+a.brand-color-inverse-1-ghost-solid:hover span {
+  color: #000000;
+  border-color: #00a651;
+  background-color: #00a651;
+  text-decoration: none; }
+
+a.brand-color-inverse-2-ghost-solid span {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+a.brand-color-inverse-2-ghost-solid:hover span {
+  color: #000000;
+  border-color: #2e3192;
+  background-color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-inverse-3-ghost-solid span {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+a.brand-color-inverse-3-ghost-solid:hover span {
+  color: #000000;
+  border-color: #00aeef;
+  background-color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-inverse-4-ghost-solid span {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+
+a.brand-color-inverse-4-ghost-solid:hover span {
+  color: #000000;
+  border-color: #ec008c;
+  background-color: #ec008c;
   text-decoration: none; }
 
 /* ================================================================================ */

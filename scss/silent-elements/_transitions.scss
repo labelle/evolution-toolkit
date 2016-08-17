@@ -19,17 +19,223 @@ a:hover {
 }
 
 
-a span {
+// a span {
+//      -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+//      -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+//      -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+//      transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+// }
+
+// a:hover span {
+//      -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+//      -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+//      -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+//      transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+// }
+
+a.solid span {
      -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
      -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
      -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
      transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
 }
 
-a:hover span {
+a.solid:hover span {
      -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
      -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
      -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
      transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
 }
 
+a.brand-color-1-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-1-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-2-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-2-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-3-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-3-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-4-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-4-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+
+
+
+
+
+
+a.brand-color-1-ghost-solid span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-1-ghost-solid:hover span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-2-ghost-solid span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-2-ghost-solid:hover span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-3-ghost-solid span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-3-ghost-solid:hover span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-4-ghost-solid span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-4-ghost-solid:hover span {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
+
+
+
+
+
+a.solid-inverse span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.solid-inverse:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-inverse-1-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-inverse-1-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-inverse-2-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-inverse-2-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-inverse-3-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-inverse-3-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
+
+a.brand-color-inverse-4-solid span {
+     -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+}
+
+a.brand-color-inverse-4-solid:hover span {
+     -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+}
