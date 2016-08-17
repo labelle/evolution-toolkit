@@ -664,6 +664,21 @@ ul.evo-list-bullets-inverse-smallest li {
 .evo-box-inverse-thinnest   {  @extend %evo-box-1; @extend %evo-box-inverse-base; }
 
 
+// ================================================================================
+// -------------------------- TOOLKIT SOLID BUTTONS -------------------------------
+// ================================================================================ 
+
+.solid span {   
+    background-color: #000000;
+    border-color: #000000;
+    color: #FFFFFF;
+}  
+
+.solid:hover span {   
+    background-color: #00a651;
+    border-color: #00a651;
+}  
+
 
 // ================================================================================
 // -------------------------------- TOOLKIT LINKS ------------------------------
@@ -692,31 +707,54 @@ a.evo-link-inverse:active             { color: $link_color_inverse_active !impor
 // http://stackoverflow.com/questions/4531208/different-color-links-on-the-same-html-page
 
 a.brand-color-1             { color: $link_color; }
-// a.brand-color-1:link        { color: $link_color;    text-decoration: $text_decoration_link; }
-// a.brand-color-1:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
 a.brand-color-1:hover       { color: $brand_color_1; text-decoration: $text_decoration_hover; }
-a.brand-color-1:active      { color: $brand_color_1; text-decoration: $text_decoration_active; }
 
 
-a.brand-color-2             { color: $link-color; }
-// a.brand-color-2:link        { color: $link-color;    text-decoration: $text_decoration_link; }
-// a.brand-color-2:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
+a.brand-color-2             { color: $link_color; }
 a.brand-color-2:hover       { color: $brand_color_2; text-decoration: $text_decoration_hover; }
-a.brand-color-2:active      { color: $brand_color_2; text-decoration: $text_decoration_active; }
 
 
 a.brand-color-3             { color: $link_color; }
-// a.brand-color-3:link        { color: $link_color; text-decoration: $text_decoration_link; }
-// a.brand-color-3:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
 a.brand-color-3:hover       { color: $brand_color_3; text-decoration: $text_decoration_hover; }
-a.brand-color-3:active      { color: $brand_color_3; text-decoration: $text_decoration_active; }
 
 
 a.brand-color-4             { color: $link_color; }
-// a.brand-color-4:link        { color: $link_color; text-decoration: $text_decoration_link; }
-// a.brand-color-4:visited     { color: $link_color_visited; text-decoration: $text_decoration_visited; }
 a.brand-color-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
-a.brand-color-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
+
+
+
+
+// Solid Links
+
+a.brand-color-1-solid span           { color: $white_evo; border-color: $link_color; background-color: $link_color;}
+a.brand-color-1-solid:hover span      { color: $white_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
+
+a.brand-color-2-solid span           { color: $white_evo; border-color: $link_color; background-color: $link_color;}
+a.brand-color-2-solid:hover span      { color: $white_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
+
+a.brand-color-3-solid span           { color: $white_evo; border-color: $link_color; background-color: $link_color;}
+a.brand-color-3-solid:hover span      { color: $white_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
+
+a.brand-color-4-solid span           { color: $white_evo; border-color: $link_color; background-color: $link_color;}
+a.brand-color-4-solid:hover span      { color: $white_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
+
+
+
+.brand-color-solid-button-link        { @extend %evo-button-14; color: $white_evo; background-color: $link_color; border-color: $link_color; }
+.brand-color-solid-button-visited     { @extend %evo-button-14; color: $white_evo; background-color: $link_color; border-color: $link_color; }
+.brand-color-solid-button-hover       { @extend %evo-button-14; color: $white_evo; background-color: $link_color; border-color: $link_color; }
+.brand-color-solid-button-active      { @extend %evo-button-14; color: $white_evo; background-color: $black_evo;  font-weight: bold; border-color: $black_evo;  }
+
+
+
+.brand-color-1-solid-button-hover       { @extend %evo-button-14; color: $white_evo; background-color: $brand_color_1; border-color: $brand_color_1; }
+.brand-color-2-solid-button-hover       { @extend %evo-button-14; color: $white_evo; background-color: $brand_color_2; border-color: $brand_color_2; }
+.brand-color-3-solid-button-hover       { @extend %evo-button-14; color: $white_evo; background-color: $brand_color_3; border-color: $brand_color_3; }
+.brand-color-4-solid-button-hover       { @extend %evo-button-14; color: $white_evo; background-color: $brand_color_4; border-color: $brand_color_4; }
+
+
+
+
 
 // structural code for the branding.html file.
 
@@ -734,27 +772,19 @@ a.evo-inverse:active            { color: $link_color_inverse_active;    text-dec
 
 
 a.brand-color-inverse-1             { color: $link_color_inverse; }
-// a.brand-color-inverse-1:link        { color: $brand_color_1; text-decoration: $text_decoration_link; }
-// a.brand-color-inverse-1:visited     { color: $brand_color_1; text-decoration: $text_decoration_visited; }
 a.brand-color-inverse-1:hover       { color: $brand_color_1; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-1:active      { color: $brand_color_1; text-decoration: $text_decoration_active; }
 
 
 a.brand-color-inverse-2             { color: $link_color_inverse; }
-// a.brand-color-inverse-2:link        { color: $brand_color_2; text-decoration: $text_decoration_link; }
-// a.brand-color-inverse-2:visited     { color: $brand_color_2; text-decoration: $text_decoration_visited; }
 a.brand-color-inverse-2:hover       { color: $brand_color_2; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-2:active      { color: $brand_color_2; text-decoration: $text_decoration_active; }
 
 a.brand-color-inverse-3             { color: $link_color_inverse; }
-// a.brand-color-inverse-3:link        { color: $brand_color_3; text-decoration: $text_decoration_link; }
-// a.brand-color-inverse-3:visited     { color: $brand_color_3; text-decoration: $text_decoration_visited; }
 a.brand-color-inverse-3:hover       { color: $brand_color_3; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-3:active      { color: $brand_color_3; text-decoration: $text_decoration_active; }
 
 a.brand-color-inverse-4             { color: $link_color_inverse; }
-// a.brand-color-inverse-4:link        { color: $brand_color_3; text-decoration: $text_decoration_link; }
-// a.brand-color-inverse-4:visited     { color: $brand_color_3; text-decoration: $text_decoration_visited; }
 a.brand-color-inverse-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
 
@@ -1184,6 +1214,8 @@ p.highlight-4,
 .brand-color-4-active       { font-weight: bold; }
 
 
+
+
 // ================================================================================
 // ------------------------ TOOLKIT BUTTON HIGHLIGHTS -------------------------
 // ================================================================================ 
@@ -1249,4 +1281,9 @@ p.highlight-4,
 .brand-color-inverse-2-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
 .brand-color-inverse-3-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
 .brand-color-inverse-4-button-active       { @extend %evo-button-14; color: $link_color_inverse_active; font-weight: bold; border-color: $link_color_inverse_active; }
+
+
+ 
+
+
 

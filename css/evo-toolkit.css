@@ -22,6 +22,18 @@ a:hover {
   -o-transition: border-color 0s ease, color 0s ease !important;
   transition: border-color 0s ease, color 0s ease !important; }
 
+a span {
+  -webkit-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, background-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, background-color 1s ease, color 1s ease !important; }
+
+a:hover span {
+  -webkit-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, background-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, background-color 0s ease, color 0s ease !important; }
+
 /* ================================================================================ */
 /* ------------------------------- BUTTON STYLES ---------------------------------- */
 /* ================================================================================ */
@@ -99,7 +111,7 @@ a:hover {
 
 /* BUTTON 13 */
 /* BUTTON 14 */
-.evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   display: inline-block;
   padding-top: 1.4625rem;
   padding-bottom: 1.29375rem;
@@ -109,7 +121,7 @@ a:hover {
   letter-spacing: -.1rem;
   border: 2px solid; }
 
-.evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   line-height: 0rem; }
 
 /* BUTTON 15 */
@@ -2459,6 +2471,15 @@ ul.evo-list-bullets-inverse-smallest li {
   margin-top: 0.48rem;
   line-height: 0.66rem; }
 
+.solid span {
+  background-color: #000000;
+  border-color: #000000;
+  color: #FFFFFF; }
+
+.solid:hover span {
+  background-color: #00a651;
+  border-color: #00a651; }
+
 a:link {
   color: #000000;
   text-decoration: none; }
@@ -2500,18 +2521,10 @@ a.brand-color-1:hover {
   color: #00a651;
   text-decoration: none; }
 
-a.brand-color-1:active {
-  color: #00a651;
-  text-decoration: none; }
-
 a.brand-color-2 {
   color: #000000; }
 
 a.brand-color-2:hover {
-  color: #2e3192;
-  text-decoration: none; }
-
-a.brand-color-2:active {
   color: #2e3192;
   text-decoration: none; }
 
@@ -2522,10 +2535,6 @@ a.brand-color-3:hover {
   color: #00aeef;
   text-decoration: none; }
 
-a.brand-color-3:active {
-  color: #00aeef;
-  text-decoration: none; }
-
 a.brand-color-4 {
   color: #000000; }
 
@@ -2533,9 +2542,90 @@ a.brand-color-4:hover {
   color: #ec008c;
   text-decoration: none; }
 
-a.brand-color-4:active {
-  color: #ec008c;
+a.brand-color-1-solid span {
+  color: #FFFFFF;
+  border-color: #000000;
+  background-color: #000000; }
+
+a.brand-color-1-solid:hover span {
+  color: #FFFFFF;
+  border-color: #00a651;
+  background-color: #00a651;
   text-decoration: none; }
+
+a.brand-color-2-solid span {
+  color: #FFFFFF;
+  border-color: #000000;
+  background-color: #000000; }
+
+a.brand-color-2-solid:hover span {
+  color: #FFFFFF;
+  border-color: #2e3192;
+  background-color: #2e3192;
+  text-decoration: none; }
+
+a.brand-color-3-solid span {
+  color: #FFFFFF;
+  border-color: #000000;
+  background-color: #000000; }
+
+a.brand-color-3-solid:hover span {
+  color: #FFFFFF;
+  border-color: #00aeef;
+  background-color: #00aeef;
+  text-decoration: none; }
+
+a.brand-color-4-solid span {
+  color: #FFFFFF;
+  border-color: #000000;
+  background-color: #000000; }
+
+a.brand-color-4-solid:hover span {
+  color: #FFFFFF;
+  border-color: #ec008c;
+  background-color: #ec008c;
+  text-decoration: none; }
+
+.brand-color-solid-button-link {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000; }
+
+.brand-color-solid-button-visited {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000; }
+
+.brand-color-solid-button-hover {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000; }
+
+.brand-color-solid-button-active {
+  color: #FFFFFF;
+  background-color: #000000;
+  font-weight: bold;
+  border-color: #000000; }
+
+.brand-color-1-solid-button-hover {
+  color: #FFFFFF;
+  background-color: #00a651;
+  border-color: #00a651; }
+
+.brand-color-2-solid-button-hover {
+  color: #FFFFFF;
+  background-color: #2e3192;
+  border-color: #2e3192; }
+
+.brand-color-3-solid-button-hover {
+  color: #FFFFFF;
+  background-color: #00aeef;
+  border-color: #00aeef; }
+
+.brand-color-4-solid-button-hover {
+  color: #FFFFFF;
+  background-color: #ec008c;
+  border-color: #ec008c; }
 
 .evo-inverse a {
   color: #FFFFFF;
