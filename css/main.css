@@ -55,6 +55,9 @@ NAVIGATION STYLES
     text-align: left;
     padding: 1em; }
 
+.main-nav li a:hover {
+    color: #00a651; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -167,8 +170,9 @@ body.ng-pageslide-body-closed::before {
 /*********************
 MAIN NAVIGATION
 *********************/
-.menu > li > a:hover {
-  color: #00a651; }
+a:hover {
+  color: #00a651;
+  cursor: pointer; }
 
 /*********************
 MAIN PAGE

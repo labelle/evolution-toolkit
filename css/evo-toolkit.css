@@ -10,6 +10,18 @@
 * would have to be changed in _toolkit.scss and its relevant elements scss file.
 *
 *******************************************************************************/
+a {
+  -webkit-transition: border-color 1s ease, color 1s ease !important;
+  -moz-transition: border-color 1s ease, color 1s ease !important;
+  -o-transition: border-color 1s ease, color 1s ease !important;
+  transition: border-color 1s ease, color 1s ease !important; }
+
+a:hover {
+  -webkit-transition: border-color 0s ease, color 0s ease !important;
+  -moz-transition: border-color 0s ease, color 0s ease !important;
+  -o-transition: border-color 0s ease, color 0s ease !important;
+  transition: border-color 0s ease, color 0s ease !important; }
+
 /* ================================================================================ */
 /* ------------------------------- BUTTON STYLES ---------------------------------- */
 /* ================================================================================ */
@@ -24,20 +36,10 @@
   padding-left: 0.85rem;
   padding-right: 0.85rem;
   font-size: 0.75rem;
-  border: 1px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 1px solid; }
 
 .evo-button-smallest, .evo-button-inverse-smallest {
   line-height: 0rem; }
-
-.evo-button-smallest:hover, .evo-button-inverse-smallest:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 5 */
 /* BUTTON 6 */
@@ -48,20 +50,10 @@
   padding-left: 0.9rem;
   padding-right: 0.9rem;
   font-size: 0.93rem;
-  border: 1px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 1px solid; }
 
 .evo-button-smaller, .evo-button-inverse-smaller {
   line-height: 0rem; }
-
-.evo-button-smaller:hover, .evo-button-inverse-smaller:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 7 */
 /* BUTTON 8 */
@@ -72,20 +64,10 @@
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1.11rem;
-  border: 1px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 1px solid; }
 
 .evo-button-small, .evo-button-inverse-small {
   line-height: 0rem; }
-
-.evo-button-small:hover, .evo-button-inverse-small:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 9 */
 /* BUTTON 10 */
@@ -96,20 +78,10 @@
   padding-left: 1.05rem;
   padding-right: 1.05rem;
   font-size: 1.29rem;
-  border: 1px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 1px solid; }
 
 .evo-button, .evo-button-inverse {
   line-height: 0rem; }
-
-.evo-button:hover, .evo-button-inverse:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 11 */
 /* BUTTON 12 */
@@ -120,20 +92,10 @@
   padding-left: 1.15rem;
   padding-right: 1.15rem;
   font-size: 1.47rem;
-  border: 1px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 1px solid; }
 
 .evo-button-big, .evo-button-large, .evo-button-inverse-big, .evo-button-inverse-large {
   line-height: 0rem; }
-
-.evo-button-big:hover, .evo-button-large:hover, .evo-button-inverse-big:hover, .evo-button-inverse-large:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 13 */
 /* BUTTON 14 */
@@ -145,20 +107,10 @@
   padding-right: 1.25rem;
   font-size: 1.65rem;
   letter-spacing: -.1rem;
-  border: 2px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 2px solid; }
 
 .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   line-height: 0rem; }
-
-.evo-button-bigger:hover, .evo-button-larger:hover, .evo-button-inverse-bigger:hover, .evo-button-inverse-larger:hover, .brand-color-button-link:hover, .brand-color-button-visited:hover, .brand-color-button-hover:hover, .brand-color-button-active:hover, .brand-color-1-button-hover:hover, .brand-color-2-button-hover:hover, .brand-color-3-button-hover:hover, .brand-color-4-button-hover:hover, .brand-color-1-button-active:hover, .brand-color-2-button-active:hover, .brand-color-3-button-active:hover, .brand-color-4-button-active:hover, .brand-color-inverse-button-link:hover, .brand-color-inverse-button-visited:hover, .brand-color-inverse-button-hover:hover, .brand-color-inverse-button-active:hover, .brand-color-inverse-1-button-hover:hover, .brand-color-inverse-2-button-hover:hover, .brand-color-inverse-3-button-hover:hover, .brand-color-inverse-4-button-hover:hover, .brand-color-inverse-1-button-active:hover, .brand-color-inverse-2-button-active:hover, .brand-color-inverse-3-button-active:hover, .brand-color-inverse-4-button-active:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 15 */
 /* BUTTON 16 */
@@ -170,20 +122,10 @@
   padding-right: 1.35rem;
   font-size: 1.83rem;
   letter-spacing: -.1rem;
-  border: 2px solid;
-  -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-  transition: border-color 0.3s ease-in, color 0.3s ease-in; }
+  border: 2px solid; }
 
 .evo-button-biggest, .evo-button-largest, .evo-button-inverse-biggest, .evo-button-inverse-largest {
   line-height: 0rem; }
-
-.evo-button-biggest:hover, .evo-button-largest:hover, .evo-button-inverse-biggest:hover, .evo-button-inverse-largest:hover {
-  -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-  -moz-transition: border-color 0s ease-out, color 0s ease-out;
-  -o-transition: border-color 0s ease-out, color 0s ease-out;
-  transition: border-color 0s ease-out, color 0s ease-out; }
 
 /* BUTTON 17 */
 /* BUTTON 18 */
@@ -2517,12 +2459,6 @@ ul.evo-list-bullets-inverse-smallest li {
   margin-top: 0.48rem;
   line-height: 0.66rem; }
 
-a {
-  -webkit-transition: color 0.3s ease-in;
-  -moz-transition: color 0.3s ease-in;
-  -o-transition: color 0.3s ease-in;
-  transition: color 0.3s ease-in; }
-
 a:link {
   color: #000000;
   text-decoration: none; }
@@ -2532,7 +2468,6 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: #00a651;
   text-decoration: none; }
 
 a:active {
@@ -2600,6 +2535,14 @@ a.brand-color-4:hover {
 
 a.brand-color-4:active {
   color: #ec008c;
+  text-decoration: none; }
+
+.evo-inverse a {
+  color: #FFFFFF;
+  text-decoration: none; }
+
+.evo-inverse {
+  color: #FFFFFF;
   text-decoration: none; }
 
 a.evo-inverse:link {
@@ -2844,22 +2787,6 @@ p.highlight-4,
   color: #000000;
   border-color: #000000; }
 
-.brand-color-1-button:hover {
-  color: #00a651;
-  border-color: #00a651; }
-
-.brand-color-2-button:hover {
-  color: #2e3192;
-  border-color: #2e3192; }
-
-.brand-color-3-button:hover {
-  color: #00aeef;
-  border-color: #00aeef; }
-
-.brand-color-4-button:hover {
-  color: #ec008c;
-  border-color: #ec008c; }
-
 .brand-color-1-button-hover {
   color: #00a651;
   border-color: #00a651; }
@@ -2912,28 +2839,6 @@ p.highlight-4,
 .brand-color-inverse-button-active {
   color: #FFFFFF;
   border-color: #FFFFFF; }
-
-.brand-color-inverse-1-button:hover, .evo-button-inverse-biggest:hover, .evo-button-inverse-largest:hover,
-.evo-button-inverse-bigger:hover, .evo-button-inverse-larger:hover,
-.evo-button-inverse-big:hover, .evo-button-inverse-large:hover,
-.evo-button-inverse:hover,
-.evo-button-inverse-small:hover,
-.evo-button-inverse-smaller:hover,
-.evo-button-inverse-smallest:hover {
-  color: #00a651;
-  border-color: #00a651; }
-
-.brand-color-inverse-2-button:hover {
-  color: #2e3192;
-  border-color: #2e3192; }
-
-.brand-color-inverse-3-button:hover {
-  color: #00aeef;
-  border-color: #00aeef; }
-
-.brand-color-inverse-4-button:hover {
-  color: #ec008c;
-  border-color: #ec008c; }
 
 .brand-color-inverse-1-button-hover {
   color: #00a651;

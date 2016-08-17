@@ -21,10 +21,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*5rem;
      font-size: $button_font_size+$button_font_size_increment*2rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-1 {
      @extend %evo-button-1-base;
@@ -47,33 +44,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-1:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-1-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-1-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-1-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 2 */
 
@@ -85,10 +58,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*6rem;
      font-size: $button_font_size+$button_font_size_increment*3rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-2 {
      @extend %evo-button-2-base;
@@ -111,33 +81,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-2:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-2-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-2-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-2-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 3 */
 
@@ -149,10 +95,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*6rem;
      font-size: $button_font_size+$button_font_size_increment*4rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-3 {
      @extend %evo-button-3-base;
@@ -175,33 +118,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-3:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-3-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-3-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-3-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 4 */
 
@@ -213,10 +132,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*7rem;
      font-size: $button_font_size+$button_font_size_increment*5rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-4 {
      @extend %evo-button-4-base;
@@ -239,33 +155,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-4:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-4-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-4-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-4-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 5 */
 
@@ -277,10 +169,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*8.5rem;
      font-size: $button_font_size+$button_font_size_increment*6rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-5 {
      @extend %evo-button-5-base;
@@ -303,33 +192,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-5:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-5-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-5-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-5-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 6 */
 
@@ -341,10 +206,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*8rem;
      font-size: $button_font_size+$button_font_size_increment*7rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-6 {
      @extend %evo-button-6-base;
@@ -367,33 +229,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-6:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-6-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-6-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-6-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 7 */
 
@@ -405,10 +243,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*9rem;
      font-size: $button_font_size+$button_font_size_increment*8rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-7 {
      @extend %evo-button-7-base;
@@ -431,33 +266,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-7:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-7-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-7-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-7-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 8 */
 
@@ -469,10 +280,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*10rem;
      font-size: $button_font_size+$button_font_size_increment*9rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-8 {
      @extend %evo-button-8-base;
@@ -495,33 +303,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-8:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-8-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-8-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-8-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 9 */
 
@@ -533,10 +317,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*10rem;
      font-size: $button_font_size+$button_font_size_increment*10rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-9 {
      @extend %evo-button-9-base;
@@ -559,33 +340,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-9:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-9-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-9-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-9-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 10 */
 
@@ -597,10 +354,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*11rem;
      font-size: $button_font_size+$button_font_size_increment*11rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-10 {
      @extend %evo-button-10-base;
@@ -623,33 +377,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-10:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-10-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-10-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-10-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 11 */
 
@@ -661,10 +391,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*12rem;
      font-size: $button_font_size+$button_font_size_increment*12rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-11 {
      @extend %evo-button-11-base;
@@ -687,33 +414,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-11:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-11-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-11-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-11-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 12 */
 
@@ -725,10 +428,7 @@
      padding-right: $button_padding_right+$button_padding_right_increment*13rem;
      font-size: $button_font_size+$button_font_size_increment*13rem;
      border: $button_border_1;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-12 {
      @extend %evo-button-12-base;
@@ -751,33 +451,9 @@
      line-height: $button_line_height_1;
 }
 
-%evo-button-12:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-12-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-12-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-12-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 13 */
 
@@ -790,10 +466,7 @@
      font-size: $button_font_size+$button_font_size_increment*14rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-13 {
      @extend %evo-button-13-base;
@@ -816,33 +489,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-13:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-13-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-13-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-13-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 14 */
 
@@ -855,10 +504,7 @@
      font-size: $button_font_size+$button_font_size_increment*15rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-14 {
      @extend %evo-button-14-base;
@@ -881,33 +527,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-14:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-14-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-14-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-14-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 15 */
 
@@ -920,10 +542,7 @@
      font-size: $button_font_size+$button_font_size_increment*16rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-15 {
      @extend %evo-button-15-base;
@@ -946,33 +565,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-15:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-15-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-15-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-15-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 16 */
 
@@ -985,10 +580,7 @@
      font-size: $button_font_size+$button_font_size_increment*17rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-16 {
      @extend %evo-button-16-base;
@@ -1011,33 +603,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-16:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-16-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-16-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-16-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 17 */
 
@@ -1050,10 +618,7 @@
      font-size: $button_font_size+$button_font_size_increment*18rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-17 {
      @extend %evo-button-17-base;
@@ -1076,33 +641,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-17:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-17-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-17-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-17-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 
 /* BUTTON 18 */
@@ -1116,10 +657,7 @@
      font-size: $button_font_size+$button_font_size_increment*19rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-18 {
      @extend %evo-button-18-base;
@@ -1142,33 +680,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-18:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-18-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-18-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-18-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 19 */
 
@@ -1181,10 +695,7 @@
      font-size: $button_font_size+$button_font_size_increment*20rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-19 {
      @extend %evo-button-19-base;
@@ -1207,33 +718,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-19:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-19-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-19-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-19-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 20 */
 
@@ -1246,10 +733,7 @@
      font-size: $button_font_size+$button_font_size_increment*21rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-20 {
      @extend %evo-button-20-base;
@@ -1272,33 +756,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-20:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-20-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-20-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-20-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 21 */
 
@@ -1311,10 +771,7 @@
      font-size: $button_font_size+$button_font_size_increment*22rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-21 {
      @extend %evo-button-21-base;
@@ -1337,33 +794,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-21:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-21-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-21-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-21-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 22 */
 
@@ -1376,10 +809,7 @@
      font-size: $button_font_size+$button_font_size_increment*23rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-22 {
      @extend %evo-button-22-base;
@@ -1402,33 +832,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-22:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-22-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-22-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-22-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 23 */
 
@@ -1441,10 +847,7 @@
      font-size: $button_font_size+$button_font_size_increment*24rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-23 {
      @extend %evo-button-23-base;
@@ -1467,33 +870,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-23:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-23-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-23-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-23-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 24 */
 
@@ -1506,10 +885,7 @@
      font-size: $button_font_size+$button_font_size_increment*25rem;
      letter-spacing: -.1rem;
      border: $button_border_2;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-24 {
      @extend %evo-button-24-base;
@@ -1532,33 +908,9 @@
      line-height: $button_line_height_2;
 }
 
-%evo-button-24:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-24-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-24-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-24-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 25 */
 
@@ -1571,10 +923,7 @@
      font-size: $button_font_size+$button_font_size_increment*26rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-25 {
      @extend %evo-button-25-base;
@@ -1597,33 +946,9 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-25:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-25-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-25-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-25-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 26 */
 
@@ -1636,10 +961,7 @@
      font-size: $button_font_size+$button_font_size_increment*27rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-26 {
      @extend %evo-button-26-base;
@@ -1662,33 +984,9 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-26:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-26-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-26-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-26-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 27 */
 
@@ -1701,10 +999,7 @@
      font-size: $button_font_size+$button_font_size_increment*28rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-27 {
      @extend %evo-button-27-base;
@@ -1727,33 +1022,9 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-27:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-27-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-27-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-27-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 28 */
 
@@ -1766,10 +1037,7 @@
      font-size: $button_font_size+$button_font_size_increment*29rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-28 {
      @extend %evo-button-28-base;
@@ -1792,33 +1060,9 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-28:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-28-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-28-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-28-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 29 */
 
@@ -1831,10 +1075,7 @@
      font-size: $button_font_size+$button_font_size_increment*30rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-29 {
      @extend %evo-button-29-base;
@@ -1857,33 +1098,9 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-29:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-29-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-29-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-29-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
 /* BUTTON 30 */
 
@@ -1896,10 +1113,7 @@
      font-size: $button_font_size+$button_font_size_increment*31rem;
      letter-spacing: -.1rem;
      border: $button_border_3;
-     -webkit-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -moz-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     -o-transition: border-color 0.3s ease-in, color 0.3s ease-in;
-     transition: border-color 0.3s ease-in, color 0.3s ease-in;
+     
 }
 %evo-button-30 {
      @extend %evo-button-30-base;
@@ -1922,31 +1136,7 @@
      line-height: $button_line_height_3;
 }
 
-%evo-button-30:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-30-bold:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-30-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 
-%evo-button-30-bold-caps:hover {
-     -webkit-transition: border-color 0s ease-out, color 0s ease-out;
-     -moz-transition: border-color 0s ease-out, color 0s ease-out;
-     -o-transition: border-color 0s ease-out, color 0s ease-out;
-     transition: border-color 0s ease-out, color 0s ease-out;
-}
 

@@ -1,0 +1,20 @@
+///* ================================================================================ */
+
+///*                         LINKS EVOLUTION ELEMENTS v2.0.1                         */
+
+///* ================================================================================ */
+
+a {
+     -webkit-transition: border-color 1s ease, color 1s ease !important;
+     -moz-transition: border-color 1s ease, color 1s ease !important;
+     -o-transition: border-color 1s ease, color 1s ease !important;
+     transition: border-color 1s ease, color 1s ease !important;
+}
+
+a:hover {
+     -webkit-transition: border-color 0s ease, color 0s ease !important;
+     -moz-transition: border-color 0s ease, color 0s ease !important;
+     -o-transition: border-color 0s ease, color 0s ease !important;
+     transition: border-color 0s ease, color 0s ease !important;
+}
+
