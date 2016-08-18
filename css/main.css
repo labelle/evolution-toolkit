@@ -56,7 +56,7 @@ NAVIGATION STYLES
     padding: 1em; }
 
 .main-nav li a:hover {
-    color: #00a651; }
+    color: #7f7f7f; }
 
 /*********************
 NAVIGATION STYLES
@@ -171,8 +171,26 @@ body.ng-pageslide-body-closed::before {
 MAIN NAVIGATION
 *********************/
 a:hover {
-  color: #00a651;
+  color: #7f7f7f;
   cursor: pointer; }
+
+/*********************
+DEFAULT
+*********************/
+.default-hover {
+  color: #7f7f7f;
+}
+
+.default-highlight {
+  background-color: #7f7f7f;
+  color: #ffffff;
+}
+
+.default-solid {
+  color: #ffffff;
+  background-color: #7f7f7f;
+}
+
 
 /*********************
 MAIN PAGE
@@ -358,7 +376,7 @@ BRANDING
 .dash-box {
   border-style: dashed;
   border-width: 1px;
-  color: #00a651;
+  color: #7f7f7f;
   clear: both; }
 
 /*********************
@@ -431,7 +449,7 @@ Toggle lines above headers in templates/spacers.html file
 "code" boxes that show examples of programming language
 ********************************************************/
 .value {
-  color: #00a651;
+  color: #7f7f7f;
   background-color: rgba(0, 166, 81, .04);
 }
 
@@ -480,7 +498,7 @@ pre.code {
   color: #999; }
 
 .tag-color {
-  color: #00a651; }
+  color: #7f7f7f; }
 
 .attribute-color {
   color: #00aeef; }
@@ -585,14 +603,14 @@ ANNOTATIONS
 grid translating from touch.less file
 ****************************************/
 .bootstrap_info div {
-  outline: 1px solid #00a651;
+  outline: 1px solid #7f7f7f;
   box-sizing: border-box; }
 
 .bootstrap_info .inner {
   background-color: #FFFFFF;
   height: 50px;
   overflow: hidden;
-  outline: 1px solid #00a651; }
+  outline: 1px solid #7f7f7f; }
 
 .bootstrap_info .container {
   margin-top: 25px;

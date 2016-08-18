@@ -267,7 +267,7 @@ a.brand-color-inverse-4-solid:hover span {
 
 /* BUTTON 13 */
 /* BUTTON 14 */
-.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-inverse-hover, .brand-color-solid-button-active, .brand-color-solid-button-disabled, .brand-color-inverse-solid-button-disabled, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-button-disabled, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-1-button-disabled, .brand-color-2-button-disabled, .brand-color-3-button-disabled, .brand-color-4-button-disabled, .brand-color-inverse-1-button-disabled, .brand-color-inverse-2-button-disabled, .brand-color-inverse-3-button-disabled, .brand-color-inverse-4-button-disabled, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   display: inline-block;
   padding-top: 1.4625rem;
   padding-bottom: 1.29375rem;
@@ -277,7 +277,7 @@ a.brand-color-inverse-4-solid:hover span {
   letter-spacing: -.1rem;
   border: 2px solid; }
 
-.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-active, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
+.brand-color-solid-button-link, .brand-color-solid-button-visited, .brand-color-solid-button-hover, .brand-color-solid-button-inverse-hover, .brand-color-solid-button-active, .brand-color-solid-button-disabled, .brand-color-inverse-solid-button-disabled, .brand-color-1-solid-button-hover, .brand-color-2-solid-button-hover, .brand-color-3-solid-button-hover, .brand-color-4-solid-button-hover, .brand-color-inverse-solid-button-link, .brand-color-inverse-solid-button-visited, .brand-color-inverse-solid-button-hover, .brand-color-inverse-solid-button-active, .brand-color-inverse-1-solid-button-hover, .brand-color-inverse-2-solid-button-hover, .brand-color-inverse-3-solid-button-hover, .brand-color-inverse-4-solid-button-hover, .evo-button-bigger, .evo-button-larger, .evo-button-inverse-bigger, .evo-button-inverse-larger, .brand-color-button-link, .brand-color-button-visited, .brand-color-button-hover, .brand-color-button-active, .brand-color-button-disabled, .brand-color-1-button-hover, .brand-color-2-button-hover, .brand-color-3-button-hover, .brand-color-4-button-hover, .brand-color-1-button-active, .brand-color-2-button-active, .brand-color-3-button-active, .brand-color-4-button-active, .brand-color-1-button-disabled, .brand-color-2-button-disabled, .brand-color-3-button-disabled, .brand-color-4-button-disabled, .brand-color-inverse-1-button-disabled, .brand-color-inverse-2-button-disabled, .brand-color-inverse-3-button-disabled, .brand-color-inverse-4-button-disabled, .brand-color-inverse-button-link, .brand-color-inverse-button-visited, .brand-color-inverse-button-hover, .brand-color-inverse-button-active, .brand-color-inverse-1-button-hover, .brand-color-inverse-2-button-hover, .brand-color-inverse-3-button-hover, .brand-color-inverse-4-button-hover, .brand-color-inverse-1-button-active, .brand-color-inverse-2-button-active, .brand-color-inverse-3-button-active, .brand-color-inverse-4-button-active {
   line-height: 0rem; }
 
 /* BUTTON 15 */
@@ -2637,8 +2637,8 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #FFFFFF; }
 
 .solid:hover span {
-  background-color: #00a651;
-  border-color: #00a651; }
+  background-color: #7f7f7f;
+  border-color: #7f7f7f; }
 
 .solid-inverse span {
   background-color: #FFFFFF;
@@ -2646,16 +2646,16 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #000000; }
 
 .solid-inverse:hover span {
-  background-color: #00a651;
-  border-color: #00a651; }
+  background-color: #7f7f7f;
+  border-color: #7f7f7f; }
 
 .ghost-solid span {
   border-color: #000000;
   color: #000000; }
 
 .ghost-solid:hover span {
-  background-color: #00a651;
-  border-color: #00a651;
+  background-color: #7f7f7f;
+  border-color: #7f7f7f;
   color: #FFFFFF; }
 
 .ghost-solid-inverse span {
@@ -2663,9 +2663,13 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #FFFFFF; }
 
 .ghost-solid-inverse:hover span {
-  background-color: #00a651;
-  border-color: #00a651;
-  color: #FFFFFF; }
+  background-color: #7f7f7f;
+  border-color: #7f7f7f;
+  color: #000000; }
+
+.disabled, a.brand-color-1-disabled, a.brand-color-2-disabled, a.brand-color-3-disabled, a.brand-color-4-disabled, a.brand-color-4-solid-disabled, a.brand-color-1-ghost-solid-disabled, a.brand-color-2-ghost-solid-disabled, a.brand-color-3-ghost-solid-disabled, a.brand-color-4-ghost-solid-disabled, a.brand-color-inverse-1-disabled, a.brand-color-inverse-2-disabled, a.brand-color-inverse-3-disabled, a.brand-color-inverse-4-disabled, a.brand-color-inverse-1-solid-disabled, a.brand-color-inverse-2-solid-disabled, a.brand-color-inverse-3-solid-disabled, a.brand-color-inverse-4-solid-disabled, a.brand-color-inverse-1-ghost-solid-disabled, a.brand-color-inverse-2-ghost-solid-disabled, a.brand-color-inverse-3-ghost-solid-disabled, a.brand-color-inverse-4-ghost-solid-disabled {
+  pointer-events: none;
+  cursor: default; }
 
 a:link {
   color: #000000;
@@ -2694,7 +2698,7 @@ a.evo-link-inverse:visited {
   text-decoration: none !important; }
 
 a.evo-link-inverse:hover {
-  color: #00a651 !important;
+  color: #7f7f7f !important;
   text-decoration: none !important; }
 
 a.evo-link-inverse:active {
@@ -2708,12 +2712,18 @@ a.brand-color-1:hover {
   color: #00a651;
   text-decoration: none; }
 
+a.brand-color-1-disabled {
+  color: #F2F2F2; }
+
 a.brand-color-2 {
   color: #000000; }
 
 a.brand-color-2:hover {
   color: #2e3192;
   text-decoration: none; }
+
+a.brand-color-2-disabled {
+  color: #F2F2F2; }
 
 a.brand-color-3 {
   color: #000000; }
@@ -2722,6 +2732,9 @@ a.brand-color-3:hover {
   color: #00aeef;
   text-decoration: none; }
 
+a.brand-color-3-disabled {
+  color: #F2F2F2; }
+
 a.brand-color-4 {
   color: #000000; }
 
@@ -2729,10 +2742,18 @@ a.brand-color-4:hover {
   color: #ec008c;
   text-decoration: none; }
 
+a.brand-color-4-disabled {
+  color: #F2F2F2; }
+
 a.brand-color-1-solid span {
   color: #FFFFFF;
   border-color: #000000;
   background-color: #000000; }
+
+a.brand-color-1-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
 
 a.brand-color-1-solid:hover span {
   color: #FFFFFF;
@@ -2745,6 +2766,11 @@ a.brand-color-2-solid span {
   border-color: #000000;
   background-color: #000000; }
 
+a.brand-color-2-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
+
 a.brand-color-2-solid:hover span {
   color: #FFFFFF;
   border-color: #2e3192;
@@ -2756,6 +2782,11 @@ a.brand-color-3-solid span {
   border-color: #000000;
   background-color: #000000; }
 
+a.brand-color-3-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
+
 a.brand-color-3-solid:hover span {
   color: #FFFFFF;
   border-color: #00aeef;
@@ -2766,6 +2797,11 @@ a.brand-color-4-solid span {
   color: #FFFFFF;
   border-color: #000000;
   background-color: #000000; }
+
+a.brand-color-4-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
 
 a.brand-color-4-solid:hover span {
   color: #FFFFFF;
@@ -2788,11 +2824,26 @@ a.brand-color-4-solid:hover span {
   background-color: #000000;
   border-color: #000000; }
 
+.brand-color-solid-button-inverse-hover {
+  color: #000000;
+  background-color: #7f7f7f;
+  border-color: #7f7f7f; }
+
 .brand-color-solid-button-active {
   color: #FFFFFF;
   background-color: #000000;
   font-weight: bold;
   border-color: #000000; }
+
+.brand-color-solid-button-disabled {
+  color: #FFFFFF;
+  background-color: #F2F2F2;
+  border-color: #F2F2F2; }
+
+.brand-color-inverse-solid-button-disabled {
+  color: #000000;
+  background-color: #333333;
+  border-color: #333333; }
 
 .brand-color-1-solid-button-hover {
   color: #FFFFFF;
@@ -2818,6 +2869,11 @@ a.brand-color-1-ghost-solid span {
   color: #000000;
   border-color: #000000; }
 
+a.brand-color-1-ghost-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
+
 a.brand-color-1-ghost-solid:hover span {
   color: #FFFFFF;
   border-color: #00a651;
@@ -2827,6 +2883,11 @@ a.brand-color-1-ghost-solid:hover span {
 a.brand-color-2-ghost-solid span {
   color: #000000;
   border-color: #000000; }
+
+a.brand-color-2-ghost-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
 
 a.brand-color-2-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2838,6 +2899,11 @@ a.brand-color-3-ghost-solid span {
   color: #000000;
   border-color: #000000; }
 
+a.brand-color-3-ghost-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
+
 a.brand-color-3-ghost-solid:hover span {
   color: #FFFFFF;
   border-color: #00aeef;
@@ -2847,6 +2913,11 @@ a.brand-color-3-ghost-solid:hover span {
 a.brand-color-4-ghost-solid span {
   color: #000000;
   border-color: #000000; }
+
+a.brand-color-4-ghost-solid-disabled span {
+  color: #FFFFFF;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2; }
 
 a.brand-color-4-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2871,7 +2942,8 @@ a.evo-inverse:visited {
   text-decoration: none; }
 
 a.evo-inverse:hover {
-  color: #00a651;
+  color: #7f7f7f;
+  border-color: #7f7f7f;
   text-decoration: none; }
 
 a.evo-inverse:active {
@@ -2893,6 +2965,9 @@ a.brand-color-inverse-1:active {
   color: #00a651;
   text-decoration: none; }
 
+a.brand-color-inverse-1-disabled {
+  color: #333333; }
+
 a.brand-color-inverse-2 {
   color: #FFFFFF; }
 
@@ -2903,6 +2978,9 @@ a.brand-color-inverse-2:hover {
 a.brand-color-inverse-2:active {
   color: #2e3192;
   text-decoration: none; }
+
+a.brand-color-inverse-2-disabled {
+  color: #333333; }
 
 a.brand-color-inverse-3 {
   color: #FFFFFF; }
@@ -2915,6 +2993,9 @@ a.brand-color-inverse-3:active {
   color: #00aeef;
   text-decoration: none; }
 
+a.brand-color-inverse-3-disabled {
+  color: #333333; }
+
 a.brand-color-inverse-4 {
   color: #FFFFFF; }
 
@@ -2926,10 +3007,18 @@ a.brand-color-inverse-4:active {
   color: #ec008c;
   text-decoration: none; }
 
+a.brand-color-inverse-4-disabled {
+  color: #333333; }
+
 a.brand-color-inverse-1-solid span {
   color: #000000;
   border-color: #FFFFFF;
   background-color: #FFFFFF; }
+
+a.brand-color-inverse-1-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
 
 a.brand-color-inverse-1-solid:hover span {
   color: #000000;
@@ -2942,6 +3031,11 @@ a.brand-color-inverse-2-solid span {
   border-color: #FFFFFF;
   background-color: #FFFFFF; }
 
+a.brand-color-inverse-2-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
+
 a.brand-color-inverse-2-solid:hover span {
   color: #000000;
   border-color: #2e3192;
@@ -2953,6 +3047,11 @@ a.brand-color-inverse-3-solid span {
   border-color: #FFFFFF;
   background-color: #FFFFFF; }
 
+a.brand-color-inverse-3-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
+
 a.brand-color-inverse-3-solid:hover span {
   color: #000000;
   border-color: #00aeef;
@@ -2963,6 +3062,11 @@ a.brand-color-inverse-4-solid span {
   color: #000000;
   border-color: #FFFFFF;
   background-color: #FFFFFF; }
+
+a.brand-color-inverse-4-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
 
 a.brand-color-inverse-4-solid:hover span {
   color: #000000;
@@ -3015,6 +3119,11 @@ a.brand-color-inverse-1-ghost-solid span {
   color: #FFFFFF;
   border-color: #FFFFFF; }
 
+a.brand-color-inverse-1-ghost-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
+
 a.brand-color-inverse-1-ghost-solid:hover span {
   color: #000000;
   border-color: #00a651;
@@ -3024,6 +3133,11 @@ a.brand-color-inverse-1-ghost-solid:hover span {
 a.brand-color-inverse-2-ghost-solid span {
   color: #FFFFFF;
   border-color: #FFFFFF; }
+
+a.brand-color-inverse-2-ghost-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
 
 a.brand-color-inverse-2-ghost-solid:hover span {
   color: #000000;
@@ -3035,6 +3149,11 @@ a.brand-color-inverse-3-ghost-solid span {
   color: #FFFFFF;
   border-color: #FFFFFF; }
 
+a.brand-color-inverse-3-ghost-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333; }
+
 a.brand-color-inverse-3-ghost-solid:hover span {
   color: #000000;
   border-color: #00aeef;
@@ -3044,6 +3163,12 @@ a.brand-color-inverse-3-ghost-solid:hover span {
 a.brand-color-inverse-4-ghost-solid span {
   color: #FFFFFF;
   border-color: #FFFFFF; }
+
+a.brand-color-inverse-4-ghost-solid-disabled span {
+  color: #000000;
+  border-color: #333333;
+  background-color: #333333;
+  font-weight: normal !important; }
 
 a.brand-color-inverse-4-ghost-solid:hover span {
   color: #000000;
@@ -3222,10 +3347,19 @@ p.highlight-4,
   border-color: #000000; }
 
 .brand-color-button-hover {
+  color: #7f7f7f;
+  border-color: #7f7f7f; }
+
+.brand-color-solid-button-hover {
+  color: #ffffff;
+  background-color: #7f7f7f;
+  border-color: #7f7f7f; }
+
+.brand-color-button-active {
   color: #000000;
   border-color: #000000; }
 
-.brand-color-button-active {
+.brand-color-button-disabled {
   color: #000000;
   border-color: #000000; }
 
@@ -3264,6 +3398,46 @@ p.highlight-4,
   color: #000000;
   font-weight: bold;
   border-color: #000000; }
+
+.brand-color-1-button-disabled {
+  color: #F2F2F2;
+  font-weight: bold;
+  border-color: #F2F2F2; }
+
+.brand-color-2-button-disabled {
+  color: #F2F2F2;
+  font-weight: bold;
+  border-color: #F2F2F2; }
+
+.brand-color-3-button-disabled {
+  color: #F2F2F2;
+  font-weight: bold;
+  border-color: #F2F2F2; }
+
+.brand-color-4-button-disabled {
+  color: #F2F2F2;
+  font-weight: bold;
+  border-color: #F2F2F2; }
+
+.brand-color-inverse-1-button-disabled {
+  color: #333333;
+  font-weight: bold;
+  border-color: #333333; }
+
+.brand-color-inverse-2-button-disabled {
+  color: #333333;
+  font-weight: bold;
+  border-color: #333333; }
+
+.brand-color-inverse-3-button-disabled {
+  color: #333333;
+  font-weight: bold;
+  border-color: #333333; }
+
+.brand-color-inverse-4-button-disabled {
+  color: #333333;
+  font-weight: bold;
+  border-color: #333333; }
 
 /* Inverse */
 .brand-color-inverse-button-link {
