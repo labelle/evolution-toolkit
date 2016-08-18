@@ -18,6 +18,7 @@
 //      font-size: $form_font_size+$form_font_size_increment*3rem;
 // }
 
+
 %evo-form-1 {
 
   fieldset {
@@ -599,6 +600,11 @@
   //   background-color: #eee;
   //   border-color: #666;
   // }
+
+  input[type="text"]:disabled {
+    border-color: #F2F2F2;
+    color: #F2F2F2;
+  }
 
 }
 
