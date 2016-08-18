@@ -103,10 +103,15 @@ $gray_0_evo:  #FFFFFF;    // rgb( 255, 255, 255 ) White
 
 
 ///* Neutral color defaults */
+$rgb_gray_15_evo: rgba( 0, 0, 0, .15);
+$rgb_gray_15_inverse_evo: rgba( 255, 255, 255, .15);
+
+
 
 $black_evo:                         $gray_100_evo;
 $gray_evo:                          $gray_50_evo;
-$light_gray_evo:                    $gray_5_evo;
+$light_gray_evo:                    $rgb_gray_15_evo;
+$light_gray_inverse_evo:            $rgb_gray_15_inverse_evo;  
 $white_evo:                         $gray_0_evo;
 
 

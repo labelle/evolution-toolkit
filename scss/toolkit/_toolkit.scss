@@ -798,7 +798,7 @@ a.brand-color-4-solid:hover span     { color: $white_evo; border-color: $brand_c
 .brand-color-solid-button-inverse-hover          { @extend %evo-button-14; color: $black_evo; background-color: #7f7f7f; border-color: #7f7f7f; }
 .brand-color-solid-button-active                 { @extend %evo-button-14; color: $white_evo; background-color: $black_evo;  font-weight: bold; border-color: $black_evo;  }
 .brand-color-solid-button-disabled               { @extend %evo-button-14; color: $white_evo; background-color: $light_gray_evo; border-color: $light_gray_evo;  }
-.brand-color-inverse-solid-button-disabled       { @extend %evo-button-14; color: $black_evo; background-color: #333333; border-color: #333333;  }
+.brand-color-inverse-solid-button-disabled       { @extend %evo-button-14; color: $black_evo; background-color: $rgb_gray_15_inverse_evo; border-color: $rgb_gray_15_inverse_evo;  }
 
 
 
@@ -852,45 +852,45 @@ a.evo-inverse:active            { color: $link_color_inverse_active;    text-dec
 a.brand-color-inverse-1             { color: $link_color_inverse; }
 a.brand-color-inverse-1:hover       { color: $brand_color_1; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-1:active      { color: $brand_color_1; text-decoration: $text_decoration_active; }
-a.brand-color-inverse-1-disabled    { color: #333333; @extend .disabled; }
+a.brand-color-inverse-1-disabled    { color: $rgb_gray_15_inverse_evo; @extend .disabled; }
 
 
 a.brand-color-inverse-2             { color: $link_color_inverse; }
 a.brand-color-inverse-2:hover       { color: $brand_color_2; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-2:active      { color: $brand_color_2; text-decoration: $text_decoration_active; }
-a.brand-color-inverse-2-disabled    { color: #333333; @extend .disabled; }
+a.brand-color-inverse-2-disabled    { color: $rgb_gray_15_inverse_evo; @extend .disabled; }
 
 a.brand-color-inverse-3             { color: $link_color_inverse; }
 a.brand-color-inverse-3:hover       { color: $brand_color_3; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-3:active      { color: $brand_color_3; text-decoration: $text_decoration_active; }
-a.brand-color-inverse-3-disabled    { color: #333333; @extend .disabled; }
+a.brand-color-inverse-3-disabled    { color: $rgb_gray_15_inverse_evo; @extend .disabled; }
 
 a.brand-color-inverse-4             { color: $link_color_inverse; }
 a.brand-color-inverse-4:hover       { color: $brand_color_4; text-decoration: $text_decoration_hover; }
 a.brand-color-inverse-4:active      { color: $brand_color_4; text-decoration: $text_decoration_active; }
-a.brand-color-inverse-4-disabled    { color: #333333; @extend .disabled; }
+a.brand-color-inverse-4-disabled    { color: $rgb_gray_15_inverse_evo; @extend .disabled; }
 
 
 
 // Solid Inverse Links
 
 a.brand-color-inverse-1-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
-a.brand-color-inverse-1-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-1-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-1-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-1-solid:hover span     { color: $black_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-2-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
-a.brand-color-inverse-2-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-2-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-2-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-2-solid:hover span     { color: $black_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-3-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
-a.brand-color-inverse-3-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-3-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-3-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-3-solid:hover span     { color: $black_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-4-solid span           { color: $black_evo; border-color: $link_color_inverse; background-color: $link_color_inverse;}
-a.brand-color-inverse-4-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-4-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-4-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-4-solid:hover span     { color: $black_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
 
@@ -913,22 +913,22 @@ a.brand-color-inverse-4-solid:hover span     { color: $black_evo; border-color: 
 // Ghost-Solid Inverse Links
 
 a.brand-color-inverse-1-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
-a.brand-color-inverse-1-ghost-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-1-ghost-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-1-ghost-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-1-ghost-solid:hover span     { color: $black_evo; border-color: $brand_color_1; background-color: $brand_color_1; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-2-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
-a.brand-color-inverse-2-ghost-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-2-ghost-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-2-ghost-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-2-ghost-solid:hover span     { color: $black_evo; border-color: $brand_color_2; background-color: $brand_color_2; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-3-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
-a.brand-color-inverse-3-ghost-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333;}
+a.brand-color-inverse-3-ghost-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo;}
 a.brand-color-inverse-3-ghost-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-3-ghost-solid:hover span     { color: $black_evo; border-color: $brand_color_3; background-color: $brand_color_3; text-decoration: $text_decoration_hover; }
 
 a.brand-color-inverse-4-ghost-solid span           { color: $link_color_inverse; border-color: $link_color_inverse; }
-a.brand-color-inverse-4-ghost-solid-disabled span  { color: $black_evo; border-color: #333333; background-color: #333333; font-weight: normal !important; }
+a.brand-color-inverse-4-ghost-solid-disabled span  { color: $black_evo; border-color: $rgb_gray_15_inverse_evo; background-color: $rgb_gray_15_inverse_evo; font-weight: normal !important; }
 a.brand-color-inverse-4-ghost-solid-disabled       { @extend .disabled;}
 a.brand-color-inverse-4-ghost-solid:hover span     { color: $black_evo; border-color: $brand_color_4; background-color: $brand_color_4; text-decoration: $text_decoration_hover; }
 
@@ -1408,10 +1408,10 @@ p.highlight-4,
 .brand-color-4-button-disabled     { @extend %evo-button-14; color: $light_gray_evo; font-weight: bold; border-color: $light_gray_evo; }
 
 
-.brand-color-inverse-1-button-disabled     { @extend %evo-button-14; color: #333333; font-weight: bold; border-color: #333333; }
-.brand-color-inverse-2-button-disabled     { @extend %evo-button-14; color: #333333; font-weight: bold; border-color: #333333; }
-.brand-color-inverse-3-button-disabled     { @extend %evo-button-14; color: #333333; font-weight: bold; border-color: #333333; }
-.brand-color-inverse-4-button-disabled     { @extend %evo-button-14; color: #333333; font-weight: bold; border-color: #333333; }
+.brand-color-inverse-1-button-disabled     { @extend %evo-button-14; color: $rgb_gray_15_inverse_evo; font-weight: bold; border-color: $rgb_gray_15_inverse_evo; }
+.brand-color-inverse-2-button-disabled     { @extend %evo-button-14; color: $rgb_gray_15_inverse_evo; font-weight: bold; border-color: $rgb_gray_15_inverse_evo; }
+.brand-color-inverse-3-button-disabled     { @extend %evo-button-14; color: $rgb_gray_15_inverse_evo; font-weight: bold; border-color: $rgb_gray_15_inverse_evo; }
+.brand-color-inverse-4-button-disabled     { @extend %evo-button-14; color: $rgb_gray_15_inverse_evo; font-weight: bold; border-color: $rgb_gray_15_inverse_evo; }
 
 
 /* Inverse */

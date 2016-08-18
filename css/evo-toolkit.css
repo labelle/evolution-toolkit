@@ -2713,7 +2713,7 @@ a.brand-color-1:hover {
   text-decoration: none; }
 
 a.brand-color-1-disabled {
-  color: #F2F2F2; }
+  color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-2 {
   color: #000000; }
@@ -2723,7 +2723,7 @@ a.brand-color-2:hover {
   text-decoration: none; }
 
 a.brand-color-2-disabled {
-  color: #F2F2F2; }
+  color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-3 {
   color: #000000; }
@@ -2733,7 +2733,7 @@ a.brand-color-3:hover {
   text-decoration: none; }
 
 a.brand-color-3-disabled {
-  color: #F2F2F2; }
+  color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-4 {
   color: #000000; }
@@ -2743,7 +2743,7 @@ a.brand-color-4:hover {
   text-decoration: none; }
 
 a.brand-color-4-disabled {
-  color: #F2F2F2; }
+  color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-1-solid span {
   color: #FFFFFF;
@@ -2752,8 +2752,8 @@ a.brand-color-1-solid span {
 
 a.brand-color-1-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-1-solid:hover span {
   color: #FFFFFF;
@@ -2768,8 +2768,8 @@ a.brand-color-2-solid span {
 
 a.brand-color-2-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-2-solid:hover span {
   color: #FFFFFF;
@@ -2784,8 +2784,8 @@ a.brand-color-3-solid span {
 
 a.brand-color-3-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-3-solid:hover span {
   color: #FFFFFF;
@@ -2800,8 +2800,8 @@ a.brand-color-4-solid span {
 
 a.brand-color-4-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-4-solid:hover span {
   color: #FFFFFF;
@@ -2837,13 +2837,13 @@ a.brand-color-4-solid:hover span {
 
 .brand-color-solid-button-disabled {
   color: #FFFFFF;
-  background-color: #F2F2F2;
-  border-color: #F2F2F2; }
+  background-color: rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-inverse-solid-button-disabled {
   color: #000000;
-  background-color: #333333;
-  border-color: #333333; }
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-1-solid-button-hover {
   color: #FFFFFF;
@@ -2871,8 +2871,8 @@ a.brand-color-1-ghost-solid span {
 
 a.brand-color-1-ghost-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-1-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2886,8 +2886,8 @@ a.brand-color-2-ghost-solid span {
 
 a.brand-color-2-ghost-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-2-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2901,8 +2901,8 @@ a.brand-color-3-ghost-solid span {
 
 a.brand-color-3-ghost-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-3-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2916,8 +2916,8 @@ a.brand-color-4-ghost-solid span {
 
 a.brand-color-4-ghost-solid-disabled span {
   color: #FFFFFF;
-  border-color: #F2F2F2;
-  background-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15); }
 
 a.brand-color-4-ghost-solid:hover span {
   color: #FFFFFF;
@@ -2966,7 +2966,7 @@ a.brand-color-inverse-1:active {
   text-decoration: none; }
 
 a.brand-color-inverse-1-disabled {
-  color: #333333; }
+  color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-2 {
   color: #FFFFFF; }
@@ -2980,7 +2980,7 @@ a.brand-color-inverse-2:active {
   text-decoration: none; }
 
 a.brand-color-inverse-2-disabled {
-  color: #333333; }
+  color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-3 {
   color: #FFFFFF; }
@@ -2994,7 +2994,7 @@ a.brand-color-inverse-3:active {
   text-decoration: none; }
 
 a.brand-color-inverse-3-disabled {
-  color: #333333; }
+  color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-4 {
   color: #FFFFFF; }
@@ -3008,7 +3008,7 @@ a.brand-color-inverse-4:active {
   text-decoration: none; }
 
 a.brand-color-inverse-4-disabled {
-  color: #333333; }
+  color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-1-solid span {
   color: #000000;
@@ -3017,8 +3017,8 @@ a.brand-color-inverse-1-solid span {
 
 a.brand-color-inverse-1-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-1-solid:hover span {
   color: #000000;
@@ -3033,8 +3033,8 @@ a.brand-color-inverse-2-solid span {
 
 a.brand-color-inverse-2-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-2-solid:hover span {
   color: #000000;
@@ -3049,8 +3049,8 @@ a.brand-color-inverse-3-solid span {
 
 a.brand-color-inverse-3-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-3-solid:hover span {
   color: #000000;
@@ -3065,8 +3065,8 @@ a.brand-color-inverse-4-solid span {
 
 a.brand-color-inverse-4-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-4-solid:hover span {
   color: #000000;
@@ -3121,8 +3121,8 @@ a.brand-color-inverse-1-ghost-solid span {
 
 a.brand-color-inverse-1-ghost-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-1-ghost-solid:hover span {
   color: #000000;
@@ -3136,8 +3136,8 @@ a.brand-color-inverse-2-ghost-solid span {
 
 a.brand-color-inverse-2-ghost-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-2-ghost-solid:hover span {
   color: #000000;
@@ -3151,8 +3151,8 @@ a.brand-color-inverse-3-ghost-solid span {
 
 a.brand-color-inverse-3-ghost-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15); }
 
 a.brand-color-inverse-3-ghost-solid:hover span {
   color: #000000;
@@ -3166,8 +3166,8 @@ a.brand-color-inverse-4-ghost-solid span {
 
 a.brand-color-inverse-4-ghost-solid-disabled span {
   color: #000000;
-  border-color: #333333;
-  background-color: #333333;
+  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
   font-weight: normal !important; }
 
 a.brand-color-inverse-4-ghost-solid:hover span {
@@ -3400,44 +3400,44 @@ p.highlight-4,
   border-color: #000000; }
 
 .brand-color-1-button-disabled {
-  color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
-  border-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-2-button-disabled {
-  color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
-  border-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-3-button-disabled {
-  color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
-  border-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-4-button-disabled {
-  color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
-  border-color: #F2F2F2; }
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-inverse-1-button-disabled {
-  color: #333333;
+  color: rgba(255, 255, 255, 0.15);
   font-weight: bold;
-  border-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-2-button-disabled {
-  color: #333333;
+  color: rgba(255, 255, 255, 0.15);
   font-weight: bold;
-  border-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-3-button-disabled {
-  color: #333333;
+  color: rgba(255, 255, 255, 0.15);
   font-weight: bold;
-  border-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-4-button-disabled {
-  color: #333333;
+  color: rgba(255, 255, 255, 0.15);
   font-weight: bold;
-  border-color: #333333; }
+  border-color: rgba(255, 255, 255, 0.15); }
 
 /* Inverse */
 .brand-color-inverse-button-link {
