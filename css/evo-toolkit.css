@@ -545,6 +545,10 @@ a.brand-color-inverse-4-solid:hover span {
   -moz-appearance: none;
   appearance: none; }
 
+.evo-form-text input[type="text"]:disabled, .evo-form-text-inverse input[type="text"]:disabled, .evo-form-dropdown input[type="text"]:disabled, .evo-form-dropdown-inverse input[type="text"]:disabled {
+  border-color: #F2F2F2;
+  color: #F2F2F2; }
+
 /* FORM 11 */
 /* FORM 12 */
 .evo-form-text-big fieldset, .evo-form-text-inverse-big fieldset, .evo-form-dropdown-big fieldset, .evo-form-dropdown-inverse-big fieldset {
