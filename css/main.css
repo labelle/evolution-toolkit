@@ -464,6 +464,42 @@ Toggle lines above headers in templates/spacers.html file
   font-size: 12px;
   word-wrap: break-word; }
 
+
+.input-focus>select,
+input[type="text"].text-focus {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.38rem;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-color: rgba(59, 153, 252, 1);
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+.input-focus-inverse>select,
+input[type="text"].text-focus-inverse {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.38rem;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline-color: rgba(59, 153, 252, 1);
+  outline-offset: -2px;
+  outline-style: auto;
+  outline-width: 5px;
+}
+
+
+
 pre.code {
   border-radius: 0px; }
 

@@ -64,6 +64,7 @@
     background-color: $form_background_color;
   }
 
+
   // select:hover {
   //   background-color: #eee;
   //   border-color: #666;
@@ -600,11 +601,6 @@
   //   background-color: #eee;
   //   border-color: #666;
   // }
-
-  input[type="text"]:disabled {
-    border-color: #F2F2F2;
-    color: #F2F2F2;
-  }
 
 }
 
@@ -3868,6 +3864,7 @@
 %evo-form-10-input,
 %evo-form-10-number,
 %evo-form-10-time       { @extend %evo-form-10; }
+
 
 %evo-form-11-text,
 %evo-form-11-dropdown,
