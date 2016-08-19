@@ -499,6 +499,134 @@ input[type="text"].text-focus-inverse {
 }
 
 
+/*Disabled Form Input*/
+
+input[type="text"]:disabled {
+  border-color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0, .15);
+}
+input[type="text"]:disabled:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0, .15);
+}
+
+
+/*Disabled Inverse Form Input*/
+
+input[type="text"].text-inverse-disabled {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+input[type="text"].text-inverse-disabled::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255,255,255, .15);
+}
+input[type="text"].text-inverse-disabled:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255, .15);
+}
+
+
+
+
+/*Disabled Dropdown Input*/
+
+select:disabled {
+  border-color: rgba(0,0,0, .15);
+  color: rgba(0,0,0, .15);
+  background-color: rgba(0,0,0, .03);
+}
+
+
+/*Disabled Inverse Dropdown Input*/
+
+select.dropdown-inverse-disabled {
+  border-color: rgba(255,255,255, .15);
+  color: rgba(255,255,255, .15);
+  background-color: rgba(255,255,255, .03);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Checkbox Input*/
+
+input[type=checkbox]:disabled + label:before {
+  border-color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+input[type=checkbox]:disabled + label {
+  color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Inverse Checkbox Input*/
+
+input[type=checkbox].checkbox-inverse-disabled + label:before {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+
+}
+
+input[type=checkbox].checkbox-inverse-disabled + label {
+  color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
+/*Disabled radio Input*/
+
+input[type=radio]:disabled + label:before {
+  border-color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+input[type=radio]:disabled + label {
+  color: rgba(0,0,0, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+/*Disabled Inverse radio Input*/
+
+input[type=radio].radio-inverse-disabled + label:before {
+  border-color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+
+}
+
+input[type=radio].radio-inverse-disabled + label {
+  color: rgba(255,255,255, .15);
+  pointer-events: none;
+  cursor: default;
+}
+
+
+
+
 
 pre.code {
   border-radius: 0px; }
