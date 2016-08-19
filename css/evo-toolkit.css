@@ -2633,8 +2633,8 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #FFFFFF; }
 
 .solid:hover span {
-  background-color: #7f7f7f;
-  border-color: #7f7f7f; }
+  background-color: #7F7F7F;
+  border-color: #7F7F7F; }
 
 .solid-inverse span {
   background-color: #FFFFFF;
@@ -2642,16 +2642,16 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #000000; }
 
 .solid-inverse:hover span {
-  background-color: #7f7f7f;
-  border-color: #7f7f7f; }
+  background-color: #7F7F7F;
+  border-color: #7F7F7F; }
 
 .ghost-solid span {
   border-color: #000000;
   color: #000000; }
 
 .ghost-solid:hover span {
-  background-color: #7f7f7f;
-  border-color: #7f7f7f;
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
   color: #FFFFFF; }
 
 .ghost-solid-inverse span {
@@ -2659,13 +2659,16 @@ ul.evo-list-bullets-inverse-smallest li {
   color: #FFFFFF; }
 
 .ghost-solid-inverse:hover span {
-  background-color: #7f7f7f;
-  border-color: #7f7f7f;
+  background-color: #7F7F7F;
+  border-color: #7F7F7F;
   color: #000000; }
 
-.disabled, a.brand-color-1-disabled, a.brand-color-2-disabled, a.brand-color-3-disabled, a.brand-color-4-disabled, a.brand-color-4-solid-disabled, a.brand-color-1-ghost-solid-disabled, a.brand-color-2-ghost-solid-disabled, a.brand-color-3-ghost-solid-disabled, a.brand-color-4-ghost-solid-disabled, a.brand-color-inverse-1-disabled, a.brand-color-inverse-2-disabled, a.brand-color-inverse-3-disabled, a.brand-color-inverse-4-disabled, a.brand-color-inverse-1-solid-disabled, a.brand-color-inverse-2-solid-disabled, a.brand-color-inverse-3-solid-disabled, a.brand-color-inverse-4-solid-disabled, a.brand-color-inverse-1-ghost-solid-disabled, a.brand-color-inverse-2-ghost-solid-disabled, a.brand-color-inverse-3-ghost-solid-disabled, a.brand-color-inverse-4-ghost-solid-disabled {
+.disabled, a.brand-color-1-disabled, a.brand-color-2-disabled, a.brand-color-3-disabled, a.brand-color-4-disabled, a.brand-color-1-solid-disabled, a.brand-color-2-solid-disabled, a.brand-color-3-solid-disabled, a.brand-color-4-solid-disabled, a.brand-color-1-ghost-solid-disabled, a.brand-color-2-ghost-solid-disabled, a.brand-color-3-ghost-solid-disabled, a.brand-color-4-ghost-solid-disabled, a.brand-color-inverse-1-disabled, a.brand-color-inverse-2-disabled, a.brand-color-inverse-3-disabled, a.brand-color-inverse-4-disabled, a.brand-color-inverse-1-solid-disabled, a.brand-color-inverse-2-solid-disabled, a.brand-color-inverse-3-solid-disabled, a.brand-color-inverse-4-solid-disabled, a.brand-color-inverse-1-ghost-solid-disabled, a.brand-color-inverse-2-ghost-solid-disabled, a.brand-color-inverse-3-ghost-solid-disabled, a.brand-color-inverse-4-ghost-solid-disabled {
   pointer-events: none;
   cursor: default; }
+
+.disabled-button, a.brand-color-1-solid-disabled span, a.brand-color-1-solid-disabled, a.brand-color-2-solid-disabled span, a.brand-color-2-solid-disabled, a.brand-color-3-solid-disabled span, a.brand-color-3-solid-disabled, a.brand-color-4-solid-disabled span, a.brand-color-4-solid-disabled, .brand-color-solid-button-disabled, .brand-color-inverse-solid-button-disabled, a.brand-color-inverse-1-solid-disabled span, a.brand-color-inverse-1-solid-disabled, a.brand-color-inverse-2-solid-disabled span, a.brand-color-inverse-2-solid-disabled, a.brand-color-inverse-3-solid-disabled span, a.brand-color-inverse-3-solid-disabled, a.brand-color-inverse-4-solid-disabled span, a.brand-color-inverse-4-solid-disabled, .brand-color-button-disabled, .brand-color-1-button-disabled, .brand-color-2-button-disabled, .brand-color-3-button-disabled, .brand-color-4-button-disabled, .brand-color-inverse-1-button-disabled, .brand-color-inverse-2-button-disabled, .brand-color-inverse-3-button-disabled, .brand-color-inverse-4-button-disabled {
+  background-clip: padding-box; }
 
 a:link {
   color: #000000;
@@ -2694,7 +2697,7 @@ a.evo-link-inverse:visited {
   text-decoration: none !important; }
 
 a.evo-link-inverse:hover {
-  color: #7f7f7f !important;
+  color: #7F7F7F !important;
   text-decoration: none !important; }
 
 a.evo-link-inverse:active {
@@ -2822,8 +2825,8 @@ a.brand-color-4-solid:hover span {
 
 .brand-color-solid-button-inverse-hover {
   color: #000000;
-  background-color: #7f7f7f;
-  border-color: #7f7f7f; }
+  background-color: #7F7F7F;
+  border-color: #7F7F7F; }
 
 .brand-color-solid-button-active {
   color: #FFFFFF;
@@ -2938,8 +2941,8 @@ a.evo-inverse:visited {
   text-decoration: none; }
 
 a.evo-inverse:hover {
-  color: #7f7f7f;
-  border-color: #7f7f7f;
+  color: #7F7F7F;
+  border-color: #7F7F7F;
   text-decoration: none; }
 
 a.evo-inverse:active {
@@ -3343,21 +3346,21 @@ p.highlight-4,
   border-color: #000000; }
 
 .brand-color-button-hover {
-  color: #7f7f7f;
-  border-color: #7f7f7f; }
+  color: #7F7F7F;
+  border-color: #7F7F7F; }
 
 .brand-color-solid-button-hover {
-  color: #ffffff;
-  background-color: #7f7f7f;
-  border-color: #7f7f7f; }
+  color: #FFFFFF;
+  background-color: #7F7F7F;
+  border-color: #7F7F7F; }
 
 .brand-color-button-active {
   color: #000000;
   border-color: #000000; }
 
 .brand-color-button-disabled {
-  color: #000000;
-  border-color: #000000; }
+  color: rgba(0, 0, 0, 0.15);
+  border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-1-button-hover {
   color: #00a651;
@@ -3397,42 +3400,34 @@ p.highlight-4,
 
 .brand-color-1-button-disabled {
   color: rgba(0, 0, 0, 0.15);
-  font-weight: bold;
   border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-2-button-disabled {
   color: rgba(0, 0, 0, 0.15);
-  font-weight: bold;
   border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-3-button-disabled {
   color: rgba(0, 0, 0, 0.15);
-  font-weight: bold;
   border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-4-button-disabled {
   color: rgba(0, 0, 0, 0.15);
-  font-weight: bold;
   border-color: rgba(0, 0, 0, 0.15); }
 
 .brand-color-inverse-1-button-disabled {
   color: rgba(255, 255, 255, 0.15);
-  font-weight: bold;
   border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-2-button-disabled {
   color: rgba(255, 255, 255, 0.15);
-  font-weight: bold;
   border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-3-button-disabled {
   color: rgba(255, 255, 255, 0.15);
-  font-weight: bold;
   border-color: rgba(255, 255, 255, 0.15); }
 
 .brand-color-inverse-4-button-disabled {
   color: rgba(255, 255, 255, 0.15);
-  font-weight: bold;
   border-color: rgba(255, 255, 255, 0.15); }
 
 /* Inverse */
