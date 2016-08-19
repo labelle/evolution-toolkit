@@ -949,14 +949,14 @@ a.brand-color-inverse-4-ghost-solid:hover span     { color: $black_evo; border-c
 
 p.highlight,
 ::-moz-selection {
-  background: $brand_color_1;
+  background: $gray_evo;
   color: $white_evo;
 }
 
 
 p.highlight,
 ::selection {
-  background: $brand_color_1;
+  background: $gray_evo;
   color: $white_evo;
 }
 
@@ -1015,6 +1015,32 @@ p.highlight-4,
   background: $brand_color_4;
   color: $white_evo;
 }
+
+
+// ================================================================================
+//---------------------------- TOOLKIT PARAGRAPH LINKS ----------------------------
+// ================================================================================ 
+
+p a {
+    transition: color 1s ease;
+}
+
+p a:link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+p a:hover {
+    transition: 0s ease;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
 
 
 

@@ -1091,6 +1091,21 @@ RESPONSIVE NAV
   .breadcrumb-download {
     margin-left: 37px; } }
 
+  /*********************
+      INTERACTIONS
+*********************/
+.brand-color-button-disabled,
+.brand-color-solid-button-disabled,
+.brand-color-inverse-button-disabled,
+.brand-color-inverse-solid-button-disabled {
+  margin-bottom: 80px;
+}
+
+.mobile-space {
+  margin-bottom: 0;
+}
+
+
 /*********************
 LARGER MOBILE DEVICES
 *********************/
