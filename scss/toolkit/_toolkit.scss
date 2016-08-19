@@ -1021,8 +1021,13 @@ p.highlight-4,
 //---------------------------- TOOLKIT PARAGRAPH LINKS ----------------------------
 // ================================================================================ 
 
+// Solid
+
 p a {
+    color: inherit;
     transition: color 1s ease;
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 
 p a:link {
@@ -1034,6 +1039,47 @@ p a:link {
 p a:hover {
     transition: 0s ease;
     border-bottom: 1px solid;
+}
+
+// dotted
+
+p a.dotted {
+    color: inherit;
+    transition: color 1s ease;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+p a.dotted:link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+p a.dotted:hover {
+    transition: 0s ease;
+    border-bottom: 1px dotted;
+}
+
+
+// Dashed
+
+p a.dashed {
+    color: inherit;
+    transition: color 1s ease;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+p a.dashed:link {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+p a.dashed:hover {
+    transition: 0s ease;
+    border-bottom: 1px dashed;
 }
 
 
