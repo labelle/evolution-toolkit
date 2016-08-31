@@ -12,7 +12,7 @@ Use with Elements to evolve your website in collaboration with designers and dev
 ## Download
 
 ```bash
-https://github.com/labelle/evolution-toolkit/tree/master
+https://github.com/labelle/evolution-toolkit/tree/source-code
 ```
 
 ## 1. Install Gulp
