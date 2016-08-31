@@ -1,31 +1,7 @@
-# Evolution Toolkit
-Use this as a styleguide to manage a website’s look and feel, from 'agile' prototype to production.
-Use with Elements to evolve your website in collaboration with designers and developers.
-
-# Features
-
-* Compiled and minified CSS
-* HTML Template
-
-## Download
-
-```bash
-https://github.com/labelle/evolution-toolkit/tree/download
-```
-
-## 1. Install Gulp
+# Extras
+This branch should be used to propose extra features.
 
 
-```bash
-npm install gulp
-```
-
-
-## 2. Run Gulp
-```bash
-gulp
-```
-- all SCSS/HTML will be watched for changes and injected into browser thanks to BrowserSync
 
 
 ## Contact
