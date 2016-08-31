@@ -5,14 +5,12 @@ Use with Elements to evolve your website in collaboration with designers and dev
 # Features
 
 * Compiled and minified CSS
-* SASS
-* Gulp including Browser-Sync
-* HTML Template
+
 
 ## Download
 
 ```bash
-https://github.com/labelle/evolution-toolkit/tree/master
+https://github.com/labelle/evolution-toolkit/tree/gh-pages
 ```
 
 ## 1. Install Gulp
