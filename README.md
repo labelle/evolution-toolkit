@@ -13,20 +13,6 @@ Use with Elements to evolve your website in collaboration with designers and dev
 https://github.com/labelle/evolution-toolkit/tree/gh-pages
 ```
 
-## 1. Install Gulp
-
-
-```bash
-npm install gulp
-```
-
-
-## 2. Run Gulp
-```bash
-gulp
-```
-- all SCSS/HTML will be watched for changes and injected into browser thanks to BrowserSync
-
 
 ## Contact
 Copyright (C) 2016 HumanIG LLC<br>
